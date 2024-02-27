@@ -1,0 +1,143 @@
+Levantamento de Requisitos 
+
+_Atividade 1_
+
+Sistema de Reserva de Hoteis para uma rede de hoteis de luxo. O sistema sera usado tanto pelos hospedes quanto pela equipe de hotel
+para gerenciar reservas, verificar disponibilidade de quartos e proporcionar uma experiencia excepcional aos clientes. A rede hoteis deseja oferecer um servico premium aos seus clientes, com um sistema que seja rapido, seguro e intuitivo para reservar quartos, solicitar servicos adicionais e gerenciar detalhes da estadia.
+  Com base na situacao proposta faca uma lista dos requisitos que considera necessario para tal desenvolvimento.
+
+R: .Reserva intuitiva, filtros avancados para pesquisa de quarto. (interface intuitiva);
+   
+   .Filtro de Pesquisa por tipo de quarto, comodidade;
+
+   .Integracao com plataformas de pagamento seguro, com transacoes confiaveis;
+
+
+------------------------------------------------------------------------------
+Continuacao: 
+
+>Gerenciamento De Reserva 
+
+.Acesso a um portal online para visualizar, modificar ou cancelar reservas;
+
+.Possibilidade de adicionar ou remover hospedes da reserva;
+
+.Solicitacao de servicos adicionais (SPA, transfer, etc) atraves do portal;
+
+.Envios de mensagens para a equipe do hotel com perguntas ou solicitacoes;
+
+.Integracao com sistema de gestao de hotelaria (PMS) para centralizar as informacoes.
+
+>EXPERIENCIA PERSONALIZADA
+
+.Personalizacao com base nas preferencias do hospede (idioma, tipo de quarto..)
+
+
+>COMUNICACAO COM HOSPEDES
+
+.Envio de mensagens personalizadas para hospedes antes, durante e apos a estadia.
+
+.Respostas a perguntas e solicitacoes dos hospedes atraves do portal online ou por telefone.
+
+.Relatorios detalhados sobre reservas, ocupacao, tarifa, etc.
+
+.Monitoramento da performance do sistemas e identificacao de areas de melhoria.
+
+.Analise de tendencias e insights para otimizar a estrategias de precos e revenue managements=>(prever a estrategia no mercado)
+
+
+>SEGURANCA E INTEGRACAO
+
+. Seguranca robusta para proteger dados dos hospedes e da empresa.
+
+. Integracao com canais de distribuicao online (OTAS) para aumentar a visiilidade do hotel.
+
+. Conectividade com sistemas de pagamento e outros software relevantes.
+
+
+>REQUISITOS ADICIONAIS (REQUISITO NAO FUNCIONAL)
+
+. Acessibilidade: O sistema deve ser acessivel a pessoas com deficiencias, com opcoes de navegacao e interface compativeis.
+
+. Multilingue: Suporte para diferentes idiomas para atender a hospedes internacionais.
+
+. Suporte tecnico: Disponibilizacao de canais de suporte para auxiliar hospedes e equipe do hotel.
+
+
+>CONSIDERACOES IMPORTANTES
+
+.Usailidade: O sistema deve ser facil de usar para todos os publicos com interfaces intuitivas e instrucoes claras.
+
+.Desempenho: O sistema deve ser rapido, conifiaveis e disponivel 24 horas por dia, 7 dias por semana.
+
+.Seguranca: A seguranca dos dados dos hospedes e fundamental e deve ser priorizada.
+
+.Personalizacao: O sistema deve ser flexivel para se adaptar as necessidades especificas da rede de hoteis.
+
+
+(DEIXANDO CLARO TUDO E O CLIENTE QUE DEFINI PARA MIM)
+
+
+_ATIVIDADE 2_
+
+.Confirmar reservas: (FUNCAO);
+R: Seria um reconhecimento de dados pelo hotel ao hospede, sendo um requisito (FUNCIONAL)
+ 
+.Cancelamento com Antecendencia: (REGRA DE NEGOCIO);
+R: O consumidor realiza o quanto antes no caso ao arrependimento da compra da reserva 
+
+.Desempenho: (NAO FUNCIONAL);
+R: Seria a questao da velocidade de envio de solicitacao dos clientes ao atendimento da reserva, no site ou app do hotel, o quanto ele pode ser rapido, confiavel.
+
+.Seguranca: (NAO FUNCIONAL);
+R: E de extrema importancia para a protecao dos dados dos hospedes inseridos 
+
+.Politica de Check-in e Check-out: (Regra de Negocio);
+R: Termo utilizado para representar o registro de entrada do hospede na acomodacao. 
+
+Check out: Para registro de saida do hospede apos o termino do periodo de estadia
+
+.Usabilidade: (Nao funcional);
+R: Capacidade de um objeto, facilidade, programa de computador, pagina da internet, (focado no website), (botoes nos lugares certos)
+
+.Verificar Disponibilidade: (Funcional);
+R: Consulte o extrato do seu cartao de credito para checar o nome da empresa. Caso nao tenha recebido um email de confirmacao e o seu cartao nao tenha sido debitado, provavelmente a reserva nao foi processada, (Verificar se o quarto esta disponivel)
+
+.Cadastrar Reservas: (Funcional);
+R: Nome, data de nascimento, telefone e e-mail, endereco. (Cadastrar cliente).
+
+.Gerenciar Servicos Adicionais: (Funcional);
+R: Ambiente agradavel, wi-fi gratuito, Bom atendimento, limpeza, cafe da manha, alimentacao...
+
+.Pagamento Antecipado: (Regra de Negocio);
+R: Os hospedes usam seus cartoes para pagar parte de uma reserva.
+
+.Confiabilidade: (Nao Funcional);
+R: Um fator e o localizacao; infraestrutura; opiniao de outros hospedes; atendimento; custo-beneficio; limpeza; cafe da manha...
+(24 horas por dia) ; (Manutencoes programadas no site).
+
+.Classificacao por categoria: (Regra de Negocio).
+R: Existe uma serie de criterios, como qualidade dos quartos, servicos oferecidos, instalacoes, localizacao.
+
+TUDO SE SEPARA EM: Hotel, Resort, Hotel Fazenda, Pousada...
+
+
+_ATIVIDADE 3_
+
+Voce foi contratado para desenvolver um sistema de gestao de bicicleta universitaria. O sistema sera utilizado por estudantes,
+professores e funcionarios para acessar o catalogo de livros realizar emprestimos, renovar prazos e gerenciar reservas de materiais.
+A rede de bicicletas busca modernizar seus servicos, oferecendo aos usuarios uma plataforma digital que simplifique o acesso aos recursos bibliograficos, promovendo eficiencia e facilitando a pesquisa academica.
+
+Com base neste contexto crie ao menos 2 regras de negocio atrelados ao emprestimo de livros.
+
+R: REGRAS DE NEGOCIO:
+
+PRIMEIRO: Categorias variadas de temas de livros separados por estante.
+
+SEGUNDO: Tempo determinado de leitura, com alguns descontos no mes, com dias antes do prazo de entrega.
+
+TERCEIRO: Prazo de devolucao e emprestimo, efetuado.
+
+QUARTO: Para pegar o livro, fazer cadastro na bicicleta.
+
+QUINTO: Aviso de devolucao atrazada com multas, (Aviso por email). 
