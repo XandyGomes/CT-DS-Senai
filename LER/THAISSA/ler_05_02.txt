@@ -1,0 +1,22 @@
+Atividade 1 - Requisitos para uma reserva de hoteis de luxo.
+
+- Interface Intuitiva
+- Filtros de Pesquisa
+- Visualizar as fotos dos quartos
+- Reservar quartos
+- Poder efetuar o pagamento atraves do aplicativo
+- Confirmar o pagamento para ser feita a reserva
+- Tempo para cancelamento de reservas e alterar datas
+- Envio de mensagens
+- Check-in e check-out online
+- Controle de disponibilidade 
+- Acessibilidade para pessoas com deficiencia
+- Seguranca dos dados inseridos
+- Adicionar ou remover hospedes
+
+Atividade 2 - Separar os requisitos em funcionais ou nao funcionais.
+
+Funcionais: reserva de quartos, visualizar a foto dos quartos, filtros de pesquisa, adicionar e remover hospedes, envio de mensagens
+Nao-funcionais: interface intuitiva, acessibilidade, seguranca
+Regras de negocios: efetuar pagamento para reservar o quarto, confirmacao do pagamento, tempo para cancelamento, check-in e check-out.
+
