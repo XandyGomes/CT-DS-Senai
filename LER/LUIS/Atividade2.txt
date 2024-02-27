@@ -1,0 +1,37 @@
+Confirmar Reservas --- RF
+	Confirmar que a reserva foi realizada com sucesso
+
+Verificar Disponibiliadde --- RF
+	Permitir que os clientes consigam verificar se a hospedagem desejada está disponível ou não
+
+Cadastrar Reservas --- RF
+	Realizar o cadastramento das reservas	
+
+Gerenciar Serviços Adicionais --- RF
+	Permitir que atráves do sistema seja feito o gerenciamento dos serviços adicionais de quarto, 
+	pedido dos serviços e verificação do que já foi realizado
+
+Desempenho --- RNF
+	Sistema rodar com um desempenho bom, sem travamentos
+
+Segurança --- RNF
+	Sistema seguro, que as informações sejam protegidas, inviabilizando o vazamento de informações
+
+Usabilidade --- RNF
+	Sistema seja de fácil entendimento, simples uso
+
+Confiabilidade --- RNF
+	Sistema deve ser confiável, que o cliente possa utilizar sem problemas
+
+Política de Chek-in e Check-out --- Regra de Negócio
+	Necessidade de realizar o check-in ao  chegar no hotel e check-out ao sair
+
+Pagamento Antecipado --- Regra de Negócio
+	Permitir que seja feito o pagamento antecipado da reserva
+
+Cancelamento com antecedência --- Regra de Negócio
+	O cancelamento DEVE ser feito com antecedência
+
+Classificação por Categoria --- Regra de negócio
+	Existir uma classificação dos quartos por categoria para encontrar mais fácilmente os quartos desejados
+	mais econômico, vista, número de camas, etc...

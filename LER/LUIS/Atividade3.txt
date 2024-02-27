@@ -1,0 +1,11 @@
+Gestão de biblioteca universitária
+Quem vai utilizar -> estudantes, professores e funcionários
+Para o que vai ser utilizado -> acessar catálogo de livros, realizar emprestimos, renovar prazos e gerenciar reservas de 										                     materiais
+
+Regra de negócio 
+1 - Apenas os funcionários podem gerenciar as reservas de materiais
+2 - Estudantes devem ter cadastro para realizar empréstimos
+3 - filtro por categorias
+4 - organização com base no curso do estudante / matérias lecionadas pelo professor
+5 - Solicitação para renovação de prazo deve passar por aprovação de um funcionário
+6 - liberação dos livros apenas após apresentar comprovante de reserva
