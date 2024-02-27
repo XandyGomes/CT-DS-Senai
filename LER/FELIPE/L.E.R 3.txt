@@ -1,0 +1,12 @@
+=================
+REGRAS DE NEGÓCIO
+=================
+
+1 - O empréstimo será de 2 meses e caso a pessoa nao o renove, ela receberá uma penalização pelo atraso do livro, caso outras pessoas estejam interessadas,
+caso nao houver essa ocorrência, ela será novamente notificada que o livro está atrasado e terá 3 dias para renovar ou devolver o livro
+
+2 - As pessoas que nao seguirem as regras da biblioteca sendo elas como por exemplo : fazer silencio, utilizar o computador para fins de pesquisa, respeitar o próximo,
+colaborar para um ambiente limpo e organizado,acumulo de livros atrasados, e etc, será advertido por uma advertência, e caso ocorra 3 advertências, será suspenso de
+pegar livros por 1 mês, caso venha a ocorrer uma segunda suspensão, ele será bloqueado não podendo pegar nenhum livro mais.
+
+3 - Conforme a colaboração do estudante, professor, ou funcionario, eles ganham pontos que podem ser trocados por livros para eles mesmos.

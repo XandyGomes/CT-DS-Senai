@@ -1,0 +1,25 @@
+Levantamento de Requisitos
+
+
+==============
+NÃO FUNCIONAIS
+==============
+Desempenho; 
+Segurança;
+Usabilidade;
+Confiabilidade;
+==========
+FUNCIONAIS
+==========
+Confirmar reservas;
+Cadastrar reservas;
+Gerenciar serviços adicionais;
+Verificar disponibilidade;
+
+==================
+REGRAS DE NÉGOCIOS
+==================
+Política de check-in e check-out;
+Classificação por categoria;
+Pagamento antecipado;
+Cancelamento com antecedencia.
