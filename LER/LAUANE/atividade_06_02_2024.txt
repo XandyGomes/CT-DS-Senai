@@ -1,0 +1,13 @@
+Um sistema que será utilizado pelos hóspedes e pela equipe para genciar as reservas 
+
+Requisitos funcionais:
+- gerenciar as  reservas;
+- fazer verificação de disponibilidade de quartos;
+- Fazer detales da estadia;   
+- Serviço premium para os cleintes;
+
+Requisitos não fuicionais:
+- fazer um sistema rápido;
+- Fazer um serviço seguro;  
+- Solicitar serviços adicionais;
+- Ser intuitivo para reservar quartos;

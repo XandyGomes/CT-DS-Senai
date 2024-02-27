@@ -1,0 +1,19 @@
+ativdade: 19/02/2024
+
+requisitos funcionais:
+-cadastrar reservas; - deve ser cadastrar os cliente para que faça os cliente reserva o quarto
+-confimar reservas; - faz uma confirmação se o seu quarto foi reservado
+-verificar disponibilidade; - verifica se tem quarto disponivel
+-gerenciar serviços adicionais;- serviço de quartos, restaurantes
+
+requisitos não funcionais:
+-segurança; - seguranças dos dados, pagamentos e contas 
+-usabilidade; - sistema deve ser acessivel e interativo
+-desempenho; - ter um site rápido 
+-confiabilidade -  atualizações, ter manunteção
+
+regras de negócio:
+-política de check-in e check-out;- tem o horária para poder sair ou pagar  
+-pagamento anticipado;- o pagamento é necessario para reserva 
+-cancelamento com atendência;- sem custo
+-classificação por categoria; - ter uma locazição por categoria 
