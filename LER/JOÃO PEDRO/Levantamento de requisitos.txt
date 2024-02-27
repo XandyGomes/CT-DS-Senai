@@ -1,0 +1,23 @@
+Funcional
+-Verificar disponibilidade ( Função para permitir tanto o cliente como o atendente ver se o quarto está disponível)
+-Cadastrar reservas (Função para cadastrar a reserva do cliente)
+-Confirmar Reservas (Função para confirmar a reserva do cliente para que possa ser reservado o quarto para ele)
+-Gerenciar serviços adicionais ( Função para permitir o cliente ou atendente ver algum serviço adicional)
+
+
+
+
+Não Funcional
+-Desempenho (Permiti o sistema funcionar de uma forma melhor, mais rápido)
+-Segurança  (Para impedir que dados do cliente ou da empresa vazem)
+-Usabilidade (Deixar o sistema fácil tanto para clientes ou funcionarios, deixar mais interativo)
+-Confiabilidade (Deixar o sistema confiavel para deixar os clientes confortaveis quando precisarem colocar seus dados)
+
+
+
+
+Regras de negócio
+-Pagamento antecipado ( Permitir que o cliente pague antes de estar no hotel)
+-Classificação por categoria (Permitir separar cada item ou função do hotel por categorias, melhorando a usuabilidade)
+-Política de Check-in e Check-out (Permitir o cliente tanto fazer check-in como check-out, no site online)
+-Cancelamento com Antecendencia (permitir o cliente cancelar com antecedencia caso ele mude de ideia)
