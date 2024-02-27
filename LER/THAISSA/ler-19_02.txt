@@ -1,0 +1,28 @@
+Atividade 1 - Identificar os requisitos.
+
+- Confirmar reservas: o usuario e a empresa consegue confirmar se as reservas foram feitas.
+- Cancelamento com antecedencia: o usuario pode cancelar a reserva dentro de um certo prazo.
+- Desempenho: a qualidade de desempenho do software.
+- Segurança: garantir que os dados do cliente e da empresa sejam protegidos.
+- Politica de check-in e check-out: o usuario consegue acessar e sair de sua conta. 
+- Usabilidade: facilitar a experiencia do usuario.
+- Verificar disponibilidade: o usuario e a empresa podem ver quais quartos estao disponiveis.
+- Cadastrar reservas: o usuario pode reservar os quartos. 
+- Gerenciar servicos adicionais: o usuario pode incluir servicos na sua estadia.
+- Pagamento antecipado: o usuario deve pagar a reserva pelo aplicativo antecipadamente.
+- Classificacao por categoria: classificacao dos quartos pelo que ele oferece, como localizacao, vista, quantidade de quartos, etc.
+
+Atividade 2 - Idenficar a funcao de cada requisito.
+
+Confirmar reservas: requisito funcional
+Cancelamento por antecedencia: regra de negocio
+Desemprenho: requisito nao-funcional
+Seguranca: requisito nao-funcional
+Politica de check-in e check-out: regra de negocio
+Usabilidade: requisito nao-funcional
+Verificar disponibilidade: requisito nao-funcional
+Cadastrar reservas: requisito funcional
+Gerenciar servicos adicionais: requisitos funcionais
+Pagamento antecipado: regra de negocio
+Confiabilidade: requisito nao-funcional
+Classificacao por categoria: regra de negocio.
