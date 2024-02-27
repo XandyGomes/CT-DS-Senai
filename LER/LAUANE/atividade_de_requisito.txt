@@ -1,0 +1,5 @@
+regras do negócio: 
+- o prazo de devolução dos livros 
+- ter uma categoria de cada livros 
+- se não renovar o livro no prazo teria uma muta
+- se o livro estiver indisponivel, o aluno, os funcionarios e professores poderam reserva o livro

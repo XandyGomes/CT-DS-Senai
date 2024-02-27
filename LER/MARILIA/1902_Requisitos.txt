@@ -1,0 +1,31 @@
+requisitos de um sistema de hotel de luxo
+
+requisito funcional 
+criar  e gerenciar conta do usuario, gerenciar quartos e reservas
+
+
+ nao funcional
+seguranca, interface(intuitivo),pagamento, usabilidade, rapido, servicos adicionairs
+
+
+Atividade 2- 19/02/2024
+identifique a funcao de cada um em seu levantamento de requisitos e os separe em funcionais e nao funcionais e regras de negocios
+
+
+requisito funcional- verbo
+verificar disponibilidade - quartos disponiveis para reservas
+cadastrar reservas -cadastrar clientes - quartos que ja foi reservado
+gerenciar servicos adicionais - servico de quarto, comida, restaurante, se aceita pet ... 
+confirmar reservas -
+
+requisito nao funcional
+seguranca - seguranca de dados, conta e pagamento(financeiro),
+usabilidade - acessivel e interativo(interface)
+desempenho - rapido(velocidade) 
+confiabilidade - atualizacoes, manuntecao
+
+regras de negocio
+politica de check-in e check-out - horario marcado para o cliente entrar e sair em tal horario
+pagamento antecipado - Pagamento necessario para reservar
+cancelamento com antecendencia- cancelar sem custo, necessario para recolocar o quarto disponivel
+classificacao por categoria- classificar quartos por luxo, o que aceita pets, quantidades de cama, com vista para o mar ....

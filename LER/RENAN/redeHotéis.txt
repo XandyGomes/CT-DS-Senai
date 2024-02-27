@@ -1,0 +1,33 @@
+Atividade 1 – Levantamento de Requisitos de uma rede de hotéis 
+
+ 
+
+Requisitos Funcionais 
+
+  
+
+ Possibilitar o usuário de fazer uma reserva 
+
+ Usuário pode escolher o quarto pelo seu perfil 
+
+ Usuário pode cancelar sua reserva 
+
+ Usuário consegue efetuar o pagamento através do sistema 
+
+  
+
+  
+
+Requisitos não funcionais 
+
+  
+
+Criar um login de usuários para proteger os dados 
+
+Criar um sistema responsivo 
+
+Ter acessibilidade na interface 
+
+Sistema com UX e UI 
+
+ 

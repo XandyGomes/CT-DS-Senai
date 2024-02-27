@@ -1,0 +1,15 @@
+Atividade 2 – Regras de negócio de uma biblioteca 
+
+  
+
+Aplicar multas em relação ao atraso de devolução ou condições em que o livro foi devolvido 
+
+Realizar um cadastro na biblioteca para levar os livros 
+
+Ter a possibilidade de agendar um livro préviamente 
+
+Prorrogar o praza para a leitura de livros 
+
+ 
+
+ 

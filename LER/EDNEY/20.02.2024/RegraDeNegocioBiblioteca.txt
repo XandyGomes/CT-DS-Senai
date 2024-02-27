@@ -1,0 +1,13 @@
+    TODOS		
+      Renovar prazos três dias antes do vencimento
+      Reservar pela plataforma qual o livro a ser retirado 
+
+	Funcionários
+		Prazo de devolução de livros em até duas semanas
+	Professores
+		Prazo de devolução de livros e até um mês
+		
+	Alunos
+		Prazo de devolução de livros em até três semanas
+		Ter frequência regular nas aulas
+		

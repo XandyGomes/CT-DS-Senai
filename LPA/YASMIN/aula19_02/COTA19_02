@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    real vrDolar,cota,vrreal,valor_prod
+
+
+    escreva ("Digite o valor do dolar ")
+    leia (vrDolar)
+
+    escreva  ("Digite o valalor do produto ")
+    leia(valor_prod)
+
+     escreva ("Digite o valor da cotacao ")
+     leia (cota)
+
+   vrreal = vrDolar * cota
+
+   escreva ("O valor do produto sera ", vrreal)
+
+
+  }
+}

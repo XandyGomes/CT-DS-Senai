@@ -1,0 +1,22 @@
+REQUISITOS
+		NÃO FUNCIONAIS
+			sistema rapido
+			sistema seguro
+			proporcionar uma experiência excepcional para o cliente
+			sistema intuituvo			
+			Sistema responsivo
+			Sistema com acessibilidade para deficientes visuais
+			
+		
+		REGRA DE NEGÓCIO
+			bloquear reserva em quartos já ocupados
+			sistema disponível para multiplataforma(Mobile/Web)
+
+		FUNCIONAIS
+			gerenciar reservas
+			verificar disponibilidade de quartos
+			reserva de quartos
+			gerenciar detalhes da estadia
+			serviços adicionais
+			cadastro de clientes
+			Exibir fotos dos quartos disponíveis para reserva

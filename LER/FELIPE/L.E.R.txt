@@ -1,0 +1,23 @@
+Levantamento de Requisitos
+
+--------------------------
+Requisitos Funcionais
+--------------------------
+
+Gerenciar reservas
+Verificar a disponibilidade dos quartos se estao ocupados ou livres
+Solicitar serviços adicionais como comida, limpeza, etc
+Gerenciar detalhes da estadia do cliente como informações do cliente, quantidade de quartos, camas, banheiros.
+Gerar um relátorio das mensalidades se foram pagas ou nao, alem dos detalhes de quanto é, a forma de pagamento que o cliente escolheu usar, a duração da estadia, etc.
+
+
+
+--------------------------
+Requisistos Não Funcionais
+--------------------------
+
+Sistema acessível, como exemplo, para os cegos, ter um mecanismo de dizer em voz alta e a pessoa se comunicar pra onde ela quer ir através da fala, 
+Sistema com resposta rápida
+Sistema seguro
+Sistema intuitivo
+Proporcionar uma experiencia excepcional aos clientes
