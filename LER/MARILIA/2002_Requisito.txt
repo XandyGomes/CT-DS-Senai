@@ -1,0 +1,11 @@
+Atividade 3
+
+Regra de negocio
+O prazo para devolver o livro é em 7 dias ou renovar
+Pode pegar apenas 2 livros de uma vez
+Renovar os livros dentro do prazo
+Pode renovar o livro apenas 2 vezes
+Se o livro estiver indisponivel no momento, pode reservar para ser o proximo
+cancelamento de reserva com antecendencia
+
+
