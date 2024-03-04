@@ -35,6 +35,10 @@ programa
 	caso 4:
 	result = n1 * n2
 	escreva("O resultado é: ", result)
+	pare
+	
+	caso contrario:
+	escreva("Operação errada")
 	
 	}
 	
