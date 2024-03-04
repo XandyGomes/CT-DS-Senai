@@ -14,23 +14,20 @@ programa
 
 	escolha (opcao){
 
-	caso 1:
-		resultado = v1 + v2
-		escreva ("O resultado é: ", resultado)
-	pare
-	caso 2:
-		resultado = v1 - v2
-		escreva ("O resultado é: ", resultado)
-	pare
-	caso 3: 
-		resultado = v1 / v2
-		escreva ("O resultado é: ", resultado)
-	pare
-	caso 4:
-		resultado = v1 * v2
-		escreva ("O resultado é: ", resultado)
-		pare
-	caso contrario: escreva ("Falha na opção")
+	          caso 1:
+				escreva("O resultado da adição é: ", v1 + v2)
+			pare
+			caso 2:
+				escreva("O resultado da subtração é: ", v1 - v2)
+			pare
+			caso 3:
+				escreva("O resultado da divisão é: ", v1 / v2)
+			pare
+			caso 4:
+				escreva("O resultado da multiplicação é: ", v1 * v2)
+			pare
+			caso contrario:
+				escreva("opção inválida!")
 	
 	}
 	 }
@@ -40,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 675; 
+ * @POSICAO-CURSOR = 319; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
