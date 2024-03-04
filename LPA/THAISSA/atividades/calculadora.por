@@ -33,8 +33,12 @@ programa
           		}
              caso 4 : {
           		resultado = num1 * num2
-          	     escreva("O resultado sera: ", resultado)		     
+          	     escreva("O resultado sera: ", resultado)	
+                     pare
           		}
+             caso contrario : {
+            	     escreva("Operacao invalida")
+            	}
           	}
           	
           
