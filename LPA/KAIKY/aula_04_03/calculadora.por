@@ -11,7 +11,7 @@ programa
 		escreva("Digite o segundo valor: ")
 		leia(valor2)
 		escreva("Escolha uma operação: ")
-		escreva("\n 1: Adição | 2: Subtração | 3: Divisão | 4: Multiplicação")
+		escreva("\n 1: Adição \n 2: Subtração \n 3: Divisão \n 4: Multiplicação")
 		escreva("\nDigite o número: ")
 		leia(operacao)
 
@@ -37,14 +37,3 @@ programa
 		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 465; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
