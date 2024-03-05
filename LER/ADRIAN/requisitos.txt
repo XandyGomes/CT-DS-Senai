@@ -1,0 +1,26 @@
+REQUISITOS
+
+Funcionais 
+•	Adicionar ao carrinho
+•	Escolher tamanho da roupa
+•	Verificar disponibilidade 
+•	Confirmar compra
+•	Criar conta
+•	Logar
+•	Deslogar 
+•	Rastrear produto 
+
+Não funcionais
+•	Segurança: proteger as informações pessoais do cliente por meio de criptografia 
+•	Usabilidade: fazer com que o site seja intuitivo
+•	Acessibilidade: incluir ferramentas simples para facilitar uso do site por pessoas deficientes
+•	Velocidade: fazer com que o site seja rápido sem lags
+•	Carrinho
+•	Recomendações com base em compras passadas
+
+Regras de negócio 
+•	Descrição de materiais e impacto ambiental do produto 
+•	Transparência com o cliente 
+•	Venda de produtos ambientalmente responsáveis
+•	Pagamento somente com cartão de credito ou débito 
+•	Cupom de desconto
