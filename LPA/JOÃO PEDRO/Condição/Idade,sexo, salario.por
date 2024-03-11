@@ -5,7 +5,7 @@ programa
 	{
      cadeia nome
      inteiro idade
-     real salarioFixo, salarioLiquido
+     real salario
      caracter sexo
 
      escreva ("Digite seu nome: ")
@@ -15,20 +15,20 @@ programa
      escreva ("Digite seu sexo com (M ou F): ")
      leia (sexo)
      escreva ("Digite seu salário fixo: R$ ")
-     leia (salarioFixo)
+     leia (salario)
 
-     se (sexo == 'M'){
+     se (sexo == 'M' ou sexo == 'm'){
      	se(idade >=30){
-     	salarioLiquido = salarioFixo + 100 
-     	escreva("Seu Salário é R$ ", salarioLiquido)}
-     	senao{ salarioLiquido = salarioFixo + 50
-     	 escreva("Seu Salário é R$ ", salarioLiquido)}
-     } senao se (sexo == 'F'){
+     	salario += 100
+     	escreva("Seu Salário é R$ ", salario)}
+     	senao{ salario += 50
+     	 escreva("Seu Salário é R$ ", salario)}
+     } senao se (sexo == 'F' ou sexo == 'f'){
     		se(idade >=30){
-    		salarioLiquido = salarioFixo + 200 
-    		escreva("Seu Salário é R$ ", salarioLiquido)}
-    		senao{ salarioLiquido = salarioFixo + 80 
-    		escreva("Seu Salário é R$ ", salarioLiquido)}
+    		salario += 200 
+    		escreva("Seu Salário é R$ ", salario)}
+    		senao{ salario += 80 
+    		escreva("Seu Salário é R$ ", salario)}
     		}
     }
      	  
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 883; 
+ * @POSICAO-CURSOR = 784; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
