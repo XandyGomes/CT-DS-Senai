@@ -3,7 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome, sexo 
+		cadeia nome
+		caracter sexo 
 		inteiro idade 
 		real salario_Fixo
 
@@ -13,20 +14,24 @@ programa
 		escreva("Digite a sua idade: ")
 		leia(idade)
 
-		escreva("Digite o seu sexo: (M ou F) ")
+		escreva("Digite o seu sexo: (M-masculino ou F-feminino) ")
 		leia(sexo)
 
 		escreva("Digite o seu salário fixo de um funcionário: ")
 		leia(salario_Fixo)
 
-		se((sexo == "M") e (idade>=30)){
-			escreva(nome, "\nSeu salário líquido	é: ", salario_Fixo+100)	
-		}senao se((sexo == "M") e (idade <30)){
-			escreva(nome, "\nSeu salário líquido é: ", salario_Fixo+50)
-		}senao se ((sexo == "F") e (idade>=30)){
-			escreva(nome,"\nSeu salário líquido é: ", salario_Fixo+200)
-		}senao se ((sexo == "F") e (idade <30)){
-			escreva(nome, "\nSeu salário líquido é: ", salario_Fixo+80)
+		se(sexo == 'M' e idade>=30){
+			salario_Fixo += 100
+			escreva(nome, "\nSeu salário líquido	é: ")	
+		}senao se(sexo == 'M' e idade <30){
+			salario_Fixo += 50
+			escreva(nome, "\nSeu salário líquido é: ")
+		}senao se (sexo == 'F' e idade>=30){
+			salario_Fixo += 200
+			escreva(nome,"\nSeu salário líquido é: ")
+		}senao se (sexo == 'F' e idade <30){
+			salario_Fixo += 80
+			escreva(nome, "\nSeu salário líquido é: ")
 		}
 	}
 }
