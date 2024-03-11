@@ -5,7 +5,7 @@ programa
 	{
 		cadeia nome
 		inteiro idade
-		real salarioFixo, salarioLiquido
+		real salario 
 		caracter sexo
 
 		escreva("Entre com seu nome: ")
@@ -15,35 +15,23 @@ programa
 		escreva("Entre com seu sexo (M ou F): ")
 		leia(sexo)
 		escreva("Entre com seu salário fixo: ")
-		leia(salarioFixo)
+		leia(salario)
 
-		se(sexo == 'M'){
+		se(sexo == 'M' ou sexo == 'm' e idade > 0){
 			se(idade >= 30){
-				salarioLiquido = salarioFixo + 100
+				salario += 100
 			}senao{
-				salarioLiquido = salarioFixo + 50
+				salario += 50
 			}
-		}senao se (sexo == 'F'){
+		}senao se (sexo == 'F' ou sexo == 'f' e idade > 0){
 			se(idade >= 30){
-				salarioLiquido = salarioFixo + 200
+				salario += 200
 			}senao{
-				salarioLiquido = salarioFixo + 80
+				salario += 80
 			}
 		}senao{
-			escreva("Sexo incoerente! Nenhum abono foi aplicado!")
-			salarioLiquido = salarioFixo
+			escreva("Dados inválidos! Nenhum abono foi aplicado!")
 		}
-		escreva("O salário líquido de ", nome, " é: ", salarioLiquido)	
+		escreva("\nO salário de ", nome, " é: ", salario)	
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 672; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
