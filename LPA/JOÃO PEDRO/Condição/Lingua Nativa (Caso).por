@@ -5,9 +5,9 @@ programa
 	{
       inteiro cd
 
-      escreva ("Digite a sua cidadania 1-Brasileiro, 2-Alemão, 3-Inglês, 4-Italiano, 5-Espanhol e 6-Francês: ")
+      escreva ("Digite a sua cidadania \n 1-Brasileiro,\n 2-Alemão,\n 3-Inglês,\n 4-Italiano, 5-Espanhol\n 6-Francês \n ")
       leia (cd)
-
+      limpa()
       escolha (cd){
 
       	caso 1: escreva ("\nPortuguês") pare 
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 548; 
+ * @POSICAO-CURSOR = 201; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
