@@ -32,6 +32,8 @@ programa
 		}senao se (sexo == 'F' e idade <30){
 			salario_Fixo += 80
 			escreva(nome, "\nSeu salário líquido é: ")
+		}senao{
+			escreva("Dados inválidos!")
 		}
 	}
 }
