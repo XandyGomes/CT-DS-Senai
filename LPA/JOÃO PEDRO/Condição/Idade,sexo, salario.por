@@ -17,20 +17,23 @@ programa
      escreva ("Digite seu salário fixo: R$ ")
      leia (salario)
 
-     se (sexo == 'M' ou sexo == 'm'){
+     se (sexo == 'M' ou sexo == 'm' e idade >0){
      	se(idade >=30){
      	salario += 100
      	escreva("Seu Salário é R$ ", salario)}
      	senao{ salario += 50
      	 escreva("Seu Salário é R$ ", salario)}
-     } senao se (sexo == 'F' ou sexo == 'f'){
+     } senao se (sexo == 'F' ou sexo == 'f' e idade >0){
     		se(idade >=30){
     		salario += 200 
     		escreva("Seu Salário é R$ ", salario)}
     		senao{ salario += 80 
     		escreva("Seu Salário é R$ ", salario)}
+    		}senao{
+    			escreva ("Dados Inválidos")}
     		}
-    }
+    		
+    
      	  
      
 	
@@ -40,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 784; 
+ * @POSICAO-CURSOR = 862; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
