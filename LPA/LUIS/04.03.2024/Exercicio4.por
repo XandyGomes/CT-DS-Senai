@@ -19,15 +19,15 @@ programa
 
 		se(sexo == 'M'){
 			se(idade >= 30){
-				salarioLiquido = salarioFixo - 100
+				salarioLiquido = salarioFixo + 100
 			}senao{
-				salarioLiquido = salarioFixo - 50
+				salarioLiquido = salarioFixo + 50
 			}
 		}senao se (sexo == 'F'){
 			se(idade >= 30){
-				salarioLiquido = salarioFixo - 200
+				salarioLiquido = salarioFixo + 200
 			}senao{
-				salarioLiquido = salarioFixo - 80
+				salarioLiquido = salarioFixo + 80
 			}
 		}senao{
 			escreva("Sexo incoerente! Nenhum abono foi aplicado!")
