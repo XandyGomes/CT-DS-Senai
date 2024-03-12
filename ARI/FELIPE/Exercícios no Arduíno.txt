@@ -1,0 +1,19 @@
+==============================================================================
+Exercícios no Arduíno
+==============================================================================
+
+Exercício 1 - Led e Botão ON e OFF
+
+https://www.tinkercad.com/things/5COIDvE3Srg-exercicio-1-led-e-botao-on-e-off
+
+------------------------------------------------------------------------------
+
+Exercício 2 - Led e Botão
+
+https://www.tinkercad.com/things/ksv4te8ibO4-exercicio-2-led-e-botao
+
+------------------------------------------------------------------------------
+
+Exercício 3 - 3 Leds e Botão
+
+https://www.tinkercad.com/things/gNPylqD3Uw3-exercicio-3-3-leds-e-botao
