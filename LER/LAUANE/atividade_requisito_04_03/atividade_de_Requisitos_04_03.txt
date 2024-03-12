@@ -1,0 +1,30 @@
+Aplicativo de Gerenciamento de Tarefas
+
+
+Funcional:
+- Cadastrar o usuário
+- Verificar se foi colocado as atividades acadêmicas
+- Organizar por prazo de tarefas (Sugestão)
+- Notificar os alunos sobre as atividades em aberta
+- Notificar com antecedência de até 3 dias antes da prova (Sugestão)
+- Realizar login (Sugestão)
+
+
+Não funcional:
+- Segurança através do cadastro e login
+- Interface intuitivo (pratico)
+- Acesso rápido ao app
+- Disponibilidade por 24 horas
+- Acessível (libras, auditivo) (Sugestão)
+
+
+Regras de negócio:
+- Notificar os usuários com até 3 dias de antecedência das provas e atividades em andamento (Sugestão)
+- Se a pessoa entregar em atraso, será descontado na nota
+- Se a pessoa entregar no prazo ela ganha 1 ponto na nota
+- Se a pessoa entregar errado a tarefa será, será recusada no momento verificado
+- Apenas alunos e professores pode se cadastrar e acessar o app
+- Para o cadastro, apenas quem tem o código do instituto poderá concluir o cadastro (Sugestão)
+ 
+
+
