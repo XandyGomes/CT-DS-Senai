@@ -1,0 +1,29 @@
+FUNCIONAIS
+-Cadastrar os alunos da universidade
+-Gerenciar tarefas 
+-Visualizar as tarefas disponiveis e seus prazos
+-Visualizar o calendário de provas
+-Acessar compromissos extracurriculares
+-Registrar um relatório de todos os alunos do aplicativo
+-Gerar advertencias 
+-Visualizar tarefas já concluidas
+-VIsualizar o andamento de uma tarefa
+
+NÃO FUNCIONAIS
+-Usuabilidade para incluir todas as pessoas no aplicativo, inclusive PCD
+-Site rápido e fluido 
+-Segurança para armazenar os dados dos alunos no sistema
+-Aplicativo facil de usar
+-Interatividade definir como vai ser a interatividade do usuario com o aplicativo
+-Interface bonita para visualização das tarefas e atividades aplicativo
+-Notificações do aplicativo notificar tarefas e atividades disponiveis ou quando se encerram
+-Disponibilidade para ver as tarefas e atividades disponiveis no site
+-Compatibilidade do aplicativo para todos os usuarios
+
+REGRAS DE NEGOCÓCIO
+-Todo aluno da universidade tem que ter um cadastro para poder utilizar o aplicativo
+-Cada tarefa que o aluno concluir vai gerar estrelas de acordo com a tarefa, o aluno que tiver mais estrelas no fim 
+do periodo determinado, irá receber uma premiação
+-O aplicativo só poderá ser utilizado por funcionários da universidade, professores e alunos
+-Só poderá fazer o cadastro maiores de 18 anos
+-Geração de advertencias para alunos que não cumprir os prazos

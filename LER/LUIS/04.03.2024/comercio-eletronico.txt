@@ -1,0 +1,27 @@
+Requisitos funcionais
+	-Vender coleções de moda sustentável
+	-Calcular frete e tempo de entrega
+	-filtrar por materiais, preço, tipo de vestimenta, data de lançamento, coleção, estação...
+	-Cadastrar/logar clientes
+	-Possuir avaliação do produto pelo cliente
+	-Possuir carrinho de compras
+	-Gerar relatório de vendas dos produtos
+	-Apresentar gráfico de vendas
+	-Apresentar fotos dos produtos
+	-Acompanhar a compra pelo site
+	
+Requisitos não funcionais
+	-Site deve ser responsivo
+	-Site intuítivo de fácil usabilidade 
+	-Cálculo de frete com integração aos correios
+	-Site rápido, sem travamentos 
+	-segurança das informações através do login
+	-Experiência agradável ao cliente(Cores)
+	-Adaptação as sazonalidades
+
+Regras de negócio
+	-Apresentação dos materiais utilizados, as práticas de fabricação e o impacto ambiental
+	-Liberação de cupom de desconto para novos clientes
+	-Envio de e-mail para clientes que adicionaram produto no carrinho mas não concluiram a compra
+	-Sistema de pontos que são convertidos em desconto para usuários cadastrados, recebem pontos pelas compras(Fidelização do cliente)
+	-Venda apenas de produtos sustentáveis
