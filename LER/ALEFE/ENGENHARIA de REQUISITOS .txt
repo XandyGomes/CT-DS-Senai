@@ -1,0 +1,123 @@
+                           ENGENHARIA de REQUISITOS 
+
+ 
+Tecnica de Levantamento de Requisitos
+
+
+-Briefing
+-levantamento orientado a pontos de vista
+-etnografia (observacoes)
+-entrevistas
+-brainstorming
+
+
+
+ . BRIEFING
+
+
+ O briefing e uma tecnica que envolve reunioes com os stakeholders de projeto para coletar informacoes sobre os requisitos. Durante o briefing, os participantes 
+compartilham suas necessidades, expectativas e obetivos em relacao ao projeto.
+
+
+.Exemplo: Um gerente de projeto se reune com os principais executivos de uma empresa para discutir os objetivos e requisitos de um novo sistema de gerenciamento dde clientes.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        LEVANTAMENTO ORIENTADO A PONTOS DE VISTA
+
+     Esta tecnica visa entender os requisitos do sistema a partir de diferentes perspectivas ou pontos de vistas dos stakeholders ou gerentes. Cada ponto de vista ajuda a identificar
+requisitos especificos relacionados aos diferentes aspectos do sistema.
+
+
+EXEMPLO: Durante o levantamento de requisitos para um sistema de gerenciamento de estoque, diferentes departamentos, como vendas, logisticas suas necessidades e perspectivas 
+sobre o sistema.
+
+
+
+  .ETONOGRAFIA (OBSERVACAO)
+
+  A etnografia envolve a observacao direta e o estudo do ambiente de trabalho e dos usuarios do sistema para compreender como eles realizam suas tarefas e interagem com o sistema atual,
+a fim de identificar requisitos. 
+ 
+
+EXEMPLO: Um analista de sistemas passa o tempo observando os funcionarios de uma fabrica para entender como eles registram e monitoram o progresso da producao, a fim de desenvolver um 
+sistema de rastreamento de producao mais eficiente.
+
+
+
+  .BRAINSTORMING
+
+   O brainstorming e uma tecnica colaborativa que envolve a geracao livre e rapida de ideias por parte dos stakeholders e membros da equipe do projeto para identificar requisitos, 
+solucoes e funcionalidades do sistema.
+
+EXEMPLO: Uma equipe de desenvolvimento de software realiza uma sessao de brainstorming para gerar ideias sobre os recursos e funcionalidades que devem ser incluidos em um novo 
+aplicativo de gerenciamento de tarefas.
+
+
+
+ .ENTREVISTAS
+
+  As entrevistas sao conversas diretas e estruturadas com os stakeholders e usuarios do sistema para coletar informacoes detalhadas sobre seus requisitos, preferencias e preocupacoes
+em relacao ao projeto.
+
+EXEMPLO: Uma analista de negocios entrevista os representantes de diferentes departamentos de uma empresa para entender suas necessidades e expectativas em relacao a um novo \
+sistema de gestao de recursos humanos.
+
+
+
+
+                                                       Diferenca entre Briefing e Entrevistas
+
+
+    O briefing e uma reuniao inicial para estabelecer uma compreensao geral do projeto, enquanto as entrevistas sao conversas diretas e mais detalhadas sobre requistos, 
+necessidades e preocupacoes especificas dos stakeholders (gerentes).
+
+   
+    FASE DO LEVANTAMENTO DE REQUISITOS 
+                        
+.FASE: 
+
+       .COLETA;
+
+       .ANALISE;
+  
+       .REGISTROS.    
+ 
+
+
+  .COLETA:
+ 
+ .Na fase de coleta de reuisitos, a equipe responsavel reune informacoes sobre o sistema que esta sendo desenvolvido.
+ 
+
+ .O Objetivo e compreender as necessidades dos clientes e identificar os requisitos que o sistema deve atender.
+
+ 
+ .E importante garantir uma comunicacao eficaz com os clientes para garantir que todos os requisitos relevantes sejam identificados.
+
+
+  .ANALISE
+
+ .Na fase de analise de requisitos, os requisitos coletados sao examinados e refinados para garantir que sejam compreensiveis, consistentes, completos e sem ambiguidades(duplicidade).
+
+ .Durante essa fase, a equipe identifica dependencias entre os reuisitos e define propriedades.
+
+ .A analise de requisitos e crucial para garantir que o sistema a ser desenvolvido atenda as necessidades dos stakeholders(clientes).
+
+
+.EXEMPLO 1: Durante a analise de requisitos para um sistema de comercio eletronico, uma equipe pode identificar que o requisito "processar pagamentos online" depende do requisito
+integrar o sistema com plataformas de pagamento.
+
+.EXEMPLO 2: Durante a analise de requisitos, a equipe de desenvolvedores pode determinar que o requisito "enviar notificacoes por e-mail" e de alta prioridade, enquanto o requisito
+"gerar relatorios de vendas" pode ser tratado posteriormente.
+
+
+
+  .REGISTROS
+
+ .Na fase de registros, os requisitos sao formalmente documentos e mantidos para serem uma referencia futura.
+
+ .Isso envolve a criacao de documento de especificacao de requisitos que descreve detalhadamente todos os requisitos funcionais e nao funcionais do sistema, juntamente com quaisquer
+diagramas ou modelos necessarios para entender o sistema.
+
+ .Os registros de requisitos devem ser atualizados conforme o projeto progride, assim como novos requisitos identificados ou alteracoes feitas.
