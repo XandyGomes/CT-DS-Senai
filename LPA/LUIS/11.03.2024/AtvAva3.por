@@ -21,6 +21,8 @@ programa
 			escreva("Diagnóstico: Zika!")
 		}senao se((febre == 'S' ou febre == 's') e (mancha == 'S' ou mancha == 's')){
 			escreva("Diagnóstico: Chikungunya!")
+		}senao{
+			escreva("Diagnóstico desconhecido, proucure um médico!")
 		}
 	}
 }
@@ -29,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 750; 
+ * @POSICAO-CURSOR = 813; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
