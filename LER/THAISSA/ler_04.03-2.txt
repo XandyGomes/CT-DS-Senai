@@ -1,0 +1,93 @@
+Requisitos Funcionais: 
+
+.Cadastrar conta do usuario: O usuario vai estar cadastrando a parte das opcoes de preenchimento dos dados pessoais, como: email, senha, nome do usuario.
+
+
+.Salvar os arquivos de forma organizada: O usuario podera utilizar esta opcao de salvamento de arquivos para o resgate das informacoes colocadas com organizacao,
+e opcao de listagem de novas pastas dentro do proprio app.
+
+
+.Enviar confirmacao de trabalho concluido: Com o trabalho ja concluido, de uma forma mais simples na interface do app, o usuario conseguira identificar de uma forma simples
+a confirmacao do trabalho feito apertando enter, ou o botao de confirmacao de trabalho (Salvar).
+
+.Organizar tarefas feitas: O usuario tera facil organizacao de ordem alfabetica e por ordem de data salva do proprio trabalho, ou lembrete de compromisso, 
+com o botao (CLassificar por: Data mais recente, mais antigo, ou as proprias datas salvas do dia salvo).
+
+
+.Registrar as praticas ao longo do processo registrado: O usuario podera ter um nivel de pausa para a realizacao das atividades de acordo com as suas necessidades, 
+e registrar da forma que desejar realizar cada atividade selecionada em seu processo.
+
+
+.Filtrar Visualizacao das tarefas realizadas: O (Filtro) servira para a organizacao de cada etapa das tarefas em funcao de ver todos os trabalhos feitos de acordo com seus temas registrados.
+
+
+.Criar Lembretes, Alarmes para atividades que precisam ser concluidas: A criacao de lembretes tera como objetivo alertar o usuario de realizar as tarefas pendentes ou ate mesmo 
+dentro do prazo para a falta de atraso de seus compromissos listados.
+
+
+.Listar atividades separadas conforme a dificuldade a ser execultada: Dentro do app o usuario podera nivelar por pontos ou ate mesmo simbolos, emojis de dificuldade para cada trabalho registrado, exemplificando: Um botao no canto superior da atividade aberta deixara salvo no final como um emoji (gesto joia, atividade feita com sucesso), 
+(rostinho feliz, conclusao perfeita), (rostinho triste, conclusao para se ajustar).
+
+
+.Notificar a caixa de mensagem de recebidos de atividades: Sera automaticamente solicitado em sua caixa de mensagem uma nova notiifcacao de confirmacao de envio de atividade feita.
+
+
+.Adicionar novos usuarios: O usuario podera adicionar na caixinha de mensagem de usuarios (amigos adicionados), para o envio de mensagens rapidas diretamente para eles como um novo chat 
+para confirmacao de datas e ojetivos estabelecidos caso alguem queira se adicionar para nao se esquecerem do mesmo objetivo da semana.
+
+
+.Deletar Lembretes concluidos: O usuario podera executar o opcao de deletar atividades passadas a muito tempo atras ja realizado, para nao ter tantos arquivos espalhados pelas novas pastas.
+
+
+
+Requisitos Nao Funcional:
+
+.Notificacao de atividades em aberto: Parte das atividades em suas notificacoes serao exposta apenas para o usuarios ao receber mensagens de suas atividades e compromissos marcados, 
+com um barulho exclusivo nas proprias configuracoes do app, em que o proprio usuario deixou configurado no proprio app.
+
+
+.Confiabilidade: O app totalmente confiavel, com suas opcoes verificadas pelos proprios desenvolvedores do app, com dicas como opcao de detalhes basicos de cada funcao especificada do app.
+
+
+.Desempenho do app: Um app extremamente rapido e seguro com seus envios e utilidades.
+
+
+.Criptografia de dados: Seguranca total dos dados do usuario com opcao ate mesmo de exclusao de conta, ou recuperacao de email ou senha.
+
+
+.Interface Amigavel: Uma interface interativa, com um tom relaxante aos olhos do usuario, com opcao de modificacao da interface do proprio app de uma forma ilimitada com base na criatividade dele.
+
+
+.Qualidade do sistema: Altissima qualidade de cada funcao com todos os opcionais adicionados.
+
+
+.Estendimento de prazo de atividades: Os estendimentos poderao ser feito todos os dias, em qualquer horario do dia, com qualquer atividade, com opcao de revisao de datas marcadas.
+
+
+
+
+Regra de Negocio:
+
+.Em 1s as atividades feitas sobem para o local determinado do app: Desempenho de velocidade alta de envio, offiline em dados salvos ou online para repassar a novos amigos adicionados no novo chat. 
+
+.Todos os dias disponivel acesso das 8:00 ate as 22:00: Limite de uso continuo ate 22:00 em todas as atividades, mostrando seu desempenho nos resultados, e horas gastas.
+
+
+.Registro de compromisso ilimitado: compromissos ilimitados criados pelo proprio usuario na nova opcao (criar).
+
+
+.Somente os usuarios cadastrados podem utilizar dos recursos: O cadastro feito possibilitara todas as opcoes do app sobre os novos recursos de novas atualizacoes recentes, com informacoes basicas de novas funcoes adicionadas.
+
+
+.Geracao de estrela apos a conclusao do lembrete de atividade concluida determinada pelo usuario: Adicao feita pelo proprio usuario com a afirmacao 
+(Voce tem certeza que deseja concluir sua atividade... se sim, pressione em sim, se nao deseja salvar: aperte em nao salvar minha atividade, pendencia: adicionar atividade pendente.)
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Os requisitos foram bem detalhados, especificando o horario de funcionamento, os usuarios que podem ter acesso e os recursos que serao disponiveis no aplicativo. Acrescentaria uma regra 
+funcional de alarme para que o usuario pudesse ter controle sobre o tempo do seu estudo e o tempo para realizar atividades. 
+
+
+
+
