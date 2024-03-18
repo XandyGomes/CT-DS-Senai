@@ -18,6 +18,9 @@ programa
 		escreva (" A volta 2 foi a mais rápida")}
 	senao se(v3 > v1 e v3 > v2){
 		escreva (" A volta 3 foi a mais rápida")}
+ 	senao se(v1 == v2 e v2 == v3){
+ 		escreva ("Voltas todas iguais")
+ 	}
 		
 	}
 	    
@@ -28,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 436; 
+ * @POSICAO-CURSOR = 470; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
