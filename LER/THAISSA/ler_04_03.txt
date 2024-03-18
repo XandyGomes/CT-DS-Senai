@@ -1,0 +1,47 @@
+Requisitos funcionais:
+
+-Cadastrar conta: o usuario deve iniciar seu cadastro na loja, informando seus dados, como endereco, email e telefone.
+-Acessar conta: o usuario pode entrar na sua conta para ver e comprar seus produtos.
+-Mostrar itens favoritos: mostrar para o usuario os produtos favoritos e mais procurados por ele. 
+-Adicionar ao carrinho: o usuario podera adicionar os produtos que deseja ao carrinho para poder adicionar outros itens na compra. 
+-Informar os precos e descontos: todo produto deve ter informado seu valor a vista, parcelado ou com descontos. 
+-Acessar os cupons: os usuarios podem receber e usar codigos promocionais e de frete gratis disponiveis nas suas compras. 
+-Adicionar aos Favoritos: o usuario podera adicionar o produto aos favoritos para que possa compra-lo depois. 
+-Acompanhar e rastrear as entregas: o usuario pode acompanhar o andamento do pedido e o rastreamento do produto.
+-Buscar itens: o usuario podera pesquisar o item que deseja e ser direcionado aos itens disponiveis. 
+-Cadastrar cartoes para pagamento: o usuario podera cadastrar seus cartoes ou copiar codigo pix.
+
+Regras de negocios:
+
+-Receber pedidos: a empresa deve receber os pedidos e o pagamento feito pelos clientes.
+-Confirmar entrega: apos receber o produtos, o usuario deve confirmar a entrega no aplicativo.
+-Separar por categoria: os produtos sao separados no site por categorias como: calcas, camisas, acessorios e acessorios de cabelo.
+-Sustentabilidade: o site deve informar os materiais utilizados em cada peca, as praticas usadas para sua fabricacao e os impactos
+ambientais gerados. 
+-Cancelamento/reembolso: o cliente tera 24 horas para cancelar o pedido, apos isso sera cobrado multa proporcional ao valor da compra.
+-Trocas e devolucoes: o cliente tera 5 dias uteis para efetuar a troca do produto, com regras como: a troca podera ser feita quando o
+cliente desejar um tamanho maior ou menor do mesmo produto; em casos de defeito do produto e presentes (informado no momento da compra).
+-Prazo de entrega: o site devera informar ao usuario o prazo de entrega e o valor do frete. 
+
+Requisitos nao funcionais:
+
+-Usabilidade: os usuarios devem ter facilidade para acessar a conta, encontrar os produtos e navegar pelo site. 
+-Acessibilidade: o site deve oferecer acessibilidade para pessoas com deficiencia.
+-Seguranca de dados: o site deve garantir a seguranca dos dados cadastrais do cliente e da empresa. 
+-Pagamento pelo aplicativo: o pagamento da compra deve ser confirmado para que seja feita a entrega do produto.
+-Notificacoes de alerta: o usuario ira receber notificacoes dos pagamentos e pedidos pendentes.
+-Notificacoes de produtos: o usuario podera receber (se permitir em seu dispositivo), notificacoes de produtos novos e promocoes.
+-Atendimento: o usuario podera enviar mensagens para tirar duvidas e/ou fazer reclamacoes. 
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Classificacao em 3 niveis: o cadastro do cliente deve ser prioridade para que ele possa adicionar os itens ao carrinho, adicionar o
+produto aos favoritos e efetuar as  compras. O cadastro dos cartoes e forma de pagamento depende dos dados iniciais para ser concluido.
+a seguranca das informacoes dos dados dos clientes e essencial. 
+a prioridade para que seja efetuada as compras depende da empresa receber a confirmacao do pedido e do pagamento da compra, para que depois
+sejam liberadas as informacoes sobre frete e prazo de entrega. 
+os trocas/devolucoes dependem da confirmacao da entrega ao cliente. 
+Opcao de Exclusao dos produtos favoritos colocados ao carrinho para uma futura compra.
+
+
+
