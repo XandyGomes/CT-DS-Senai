@@ -12,15 +12,16 @@ programa
 	escreva ("Digite o tempo da 3ºVolta: ")
 	leia (v3)
 
-	se(v1 > v2 e v1 > v3){
+	se(v2 > v1 e v1 < v3){
 		escreva ("A volta 1 foi a mais rápida")}
-	se (v2 > v1 e v2 > v3){
+	se (v1 > v2 e v2 < v3){
 		escreva (" A volta 2 foi a mais rápida")}
-	senao se(v3 > v1 e v3 > v2){
+	senao se(v2 > v3 e v3 < v1){
 		escreva (" A volta 3 foi a mais rápida")}
  	senao se(v1 == v2 e v2 == v3){
- 		escreva ("Voltas todas iguais")
- 	}
+ 		escreva ("Voltas todas iguais")}
+ 	
+ 	
 		
 	}
 	    
@@ -31,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 470; 
+ * @POSICAO-CURSOR = 508; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
