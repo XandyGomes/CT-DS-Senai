@@ -18,6 +18,8 @@ programa
 			escreva("A segunda volta é a mais rápida")
 		}senao se (volta3 < volta2 e volta3 < volta1){
 			escreva("A terceira volta é a mais rápida")
+		}senao{
+			escreva("Duas voltas empatadas!!!!!")
 		}
 	}
 }
