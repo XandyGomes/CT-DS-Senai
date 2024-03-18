@@ -1,0 +1,67 @@
+Requisitos Funcionais: 
+
+.Cadastrar conta do usuario;
+
+.Opcao de salvar o login
+
+.Acessibilidade de salvar os arquivos de forma organizada;
+
+.Menu de Perfil simples;
+
+.Enviar confirmacao de trabalho concluido;
+
+.Organizar tarefas feitas;
+
+.Registro de suas praticas ao longo do seu processo registrado;
+
+.Filtrar Visualizacao;
+
+.Criar Lembretes, Alarmes;
+
+.Listar atividades separadas conforme a dificuldade a ser execultada;
+
+.Notificar a caixa de mensagem de recebidos de atividades;
+
+.Adicionar novos usuarios;
+
+.Deletar Lembretes concluidos.
+
+
+
+Requisitos Nao Funcional:
+
+.Notificacao de atividades em aberto;
+
+.Confiabilidade;
+
+.Desempenho do app;
+
+.Criptografia de dados;
+
+.Interface Amigavel;
+
+.Qualidade do sistema;
+
+.Estendimento de prazo de atividades;
+
+
+
+
+Regra de Negocio:
+
+.Em 1s as atividades feitas sobem para o local determinado do app;
+
+.Todos os dias disponivel acesso de revisao de atividades feitas;
+
+.Registro de compromisso ilimitado;
+
+.Todos os publicos podem ter acesso.
+
+.Geracao de estrela apos a conclusao do lembrete de atividade concluida determinada pelo usuario
+
+
+
+
+
+
+
