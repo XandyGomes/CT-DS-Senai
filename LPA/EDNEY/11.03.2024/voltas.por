@@ -4,23 +4,23 @@ programa
 	funcao inicio()
 	{
 		real volta1,volta2,volta3
-		escreva("Digite em segundos o tempo da 1º volta")
+		escreva("Digite em segundos o tempo da 1º volta ")
 		leia(volta1)
-		escreva("Digite em segundos o tempo da 1º volta")
+		escreva("Digite em segundos o tempo da 1º volta ")
 		leia(volta2)
-		escreva("Digite em segundos o tempo da 1º volta")
-		leia(volta3)
+		escreva("Digite em segundos o tempo da 1º volta ")
+		leia(volta3)
 
 		se (volta1 < volta2 e volta1 <  volta3){
-			escreva("A volta mais rápida é: ",volta1)
-			}se (volta2 < volta1 e volta2 <  volta3){
-			escreva("A volta mais rápida é: ",volta2)
-		}se (volta3 < volta2 e volta3 < volta1){
-		 escreva("A volta mais rápida é: ",volta3)
-	}se (volta1 == volta2 ou volta1 == volta3){
-		escreva("Voltas com tempos iguais (empate) ")
+			escreva("\nA volta mais rápida é a primeira ",volta1)
+			}senao se ( volta2 <  volta3 e volta2<volta1){
+			escreva("\nA volta mais rápida é a segunda ",volta2)
+		}senao se (volta3 < volta2 e volta3 < volta1){
+		 escreva("\nA volta mais rápida é a terceira ",volta3)
+	}senao se (volta1 == volta2 e volta2 == volta3){
+		escreva("\nVoltas com tempos iguais (empate) ")
 		}senao{
-			escreva("Dados inválidos")}
+			escreva("\nDuas voltas empatadas")}
 	}
 }
 
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 638; 
+ * @POSICAO-CURSOR = 265; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
