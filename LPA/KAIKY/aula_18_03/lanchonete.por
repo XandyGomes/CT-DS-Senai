@@ -3,8 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro codigo
-		real qtde
+		inteiro codigo, qtde
 
 		escreva("==       Cardápio da lanhconete   ==")
 		escreva("\n== Lanche          = Cod =  Valor ==")
