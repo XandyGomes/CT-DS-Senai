@@ -7,13 +7,13 @@ programa
 		real qtde
 
 		escreva("==       Cardápio da lanhconete   ==")
-		escreva("== Lanche          = Cod =  Valor ==")
-		escreva("== Cachorro quente = 101 =  1,20  ==")
-		escreva("== Bauru Simples   = 102 =  1,30  ==")
-		escreva("== Bauru com Ovo   = 103 =  1,50  ==")
-		escreva("== Hambúrguer      = 104 =  1,20  ==")
-		escreva("== Cheeseburger    = 105 =  1,30  ==")
-		escreva("== Refrigerante    = 106 =  1,00  ==")
+		escreva("\n== Lanche          = Cod =  Valor ==")
+		escreva("\n== Cachorro quente = 101 =  1,20  ==")
+		escreva("\n== Bauru Simples   = 102 =  1,30  ==")
+		escreva("\n== Bauru com Ovo   = 103 =  1,50  ==")
+		escreva("\n== Hambúrguer      = 104 =  1,20  ==")
+		escreva("\n== Cheeseburger    = 105 =  1,30  ==")
+		escreva("\n== Refrigerante    = 106 =  1,00  ==")
 		leia(codigo)
 
 		escolha (codigo){
