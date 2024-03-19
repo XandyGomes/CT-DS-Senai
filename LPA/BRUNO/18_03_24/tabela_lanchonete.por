@@ -3,7 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro codigo, qtde 
+		inteiro codigo 
+		real qtde 
 		 
 
 		escreva("==       Cardápio da lanhconete   ==")
