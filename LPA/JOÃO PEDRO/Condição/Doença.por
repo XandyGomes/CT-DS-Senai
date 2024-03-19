@@ -14,8 +14,7 @@ programa
      	
      	caso 1: 
      	se (s1 + s2 == 4)
-     	escreva (" Você está com Dengue ") 
-     	pare
+     	escreva (" Você está com Dengue ") pare
 
      	caso 2:
      	se (s1 + s2 == 5) 
@@ -23,7 +22,7 @@ programa
 
      	caso 3: 
      	se (s1 + s2 == 3)
-     	escreva (" Você está com Chikungunya") pare
+     	escreva (" Você está com Chikungunya\n") pare
      	
      	caso contrario: escreva ("opções inválidas")
      }
@@ -36,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 651; 
+ * @POSICAO-CURSOR = 639; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
