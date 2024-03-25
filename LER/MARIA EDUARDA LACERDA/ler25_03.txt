@@ -1,0 +1,41 @@
+Clientes: 
+- Informacoes sobre os produtos vendidos
+- Filtrar lista de contatos
+- Rastreamento, prazo de entrega e frete
+
+Gerente: 
+- Projetos
+- Organizacao 
+- Relatorios e formulario dos funcionarios
+
+Gerente Financeiro: 
+- Analise de estoque
+- Compra e venda
+- Filtrar compras por valor e custo beneficio
+- Controle de gastos
+- Relatorio de lucros
+
+Dono:
+- Desenvolver para web e mobile
+- Seguranca dos dados da empresa
+- Acessibilidade para todos os funcionarios (UX e UI)
+- Controle dos dados dos funcionarios
+- Separar por login
+
+Fornecedor:
+- Acesso ao estoque
+- Feedback
+- Lista de contato
+- Disponibilizar documentos de politica de compra
+- Seguranca
+
+Funcionario:
+- Consultar o ponto
+- Consultar a data disponivel para ferias
+- Consultar cardapio e valores da cantina
+- Acessibilidade para deficientes
+- Requisitar EPI's
+- Holerites
+- Beneficios disponiveis 
+- Calendario para eventos 
+- Notificacoes do ponto, eventos e feriados.
