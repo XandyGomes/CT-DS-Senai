@@ -1,0 +1,36 @@
+// C++ code
+//
+// C++ code
+//
+
+const int bt = 7;
+const int bt2 = 2;
+const int led = 13;
+
+
+int estbt = 0;
+int estbt2 = 0;
+  
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(bt, INPUT);
+  pinMode(bt2, INPUT);
+}
+
+void loop()
+{
+  estbt = digitalRead(bt);
+  estbt2 = digitalRead(bt2);
+  
+  if(estbt2==1)
+  {
+    digitalWrite(led, HIGH);
+  }
+  if(estbt==1)
+  {
+    digitalWrite(led, LOW);
+  }
+    
+    
+}
