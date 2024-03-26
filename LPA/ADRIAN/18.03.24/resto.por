@@ -3,23 +3,37 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro minutosTotal, horaFinal, minutoFinal
+		inteiro num
+		escreva("Digite um número: ")
+		leia(num)
+		limpa()
 
-		escreva("Entre com a quantidade de minutos que deseja converter para horas: ")
-		leia(minutosTotal)
- 
-		minutoFinal = minutosTotal%60
-		horaFinal = (minutosTotal-minutoFinal) /60
+		se (num < 0){
+			escreva ("O numero é negativo")
+		}
+		senao se (num >
+		0){
+			escreva ("O numero é positivo")
+		}
+		senao{
+			escreva ("O numero é 0")
+		}
 
-		escreva("O horário convertido é: ", horaFinal, "h:",minutoFinal,"m.")
+		se (num % 2 == 0){
+			escreva (" e par")	
+		}
+		senao{
+			escreva (" e impar")
+		}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 338; 
+ * @POSICAO-CURSOR = 177; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

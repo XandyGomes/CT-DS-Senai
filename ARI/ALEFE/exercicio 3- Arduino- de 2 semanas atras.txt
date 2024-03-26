@@ -1,0 +1,53 @@
+const int pinoBotao = 2;          
+const int pinoLedVermelho = 12;   
+const int pinoLedVerde = 11;      
+const int pinoLedAmarelo = 10;    
+
+int estadoBotaoAnterior = LOW;    
+int estadoBotaoAtual = LOW;       
+int estadoLED = 0;                
+
+void setup() {
+  pinMode(2, INPUT);              
+  pinMode(12, OUTPUT);       
+  pinMode(11, OUTPUT);          
+  pinMode(10, OUTPUT);       
+
+  
+  digitalWrite(pinoLedVermelho, LOW);
+  digitalWrite(pinoLedVerde, LOW);
+  digitalWrite(pinoLedAmarelo, LOW);
+}
+
+void loop() {
+  estadoBotaoAtual = digitalRead(pinoBotao);  
+
+  
+  if (estadoBotaoAtual == LOW && estadoBotaoAnterior == HIGH) {
+    estadoLED++;  
+    
+    if (estadoLED > 3) {
+      estadoLED = 0;
+    }
+    
+    digitalWrite(pinoLedVermelho, LOW);
+    digitalWrite(pinoLedVerde, LOW);
+    digitalWrite(pinoLedAmarelo, LOW);
+
+    switch (estadoLED) {
+      case 1:
+        digitalWrite(pinoLedVermelho, HIGH);
+        break;
+      case 2:
+        digitalWrite(pinoLedVerde, HIGH);
+        break;
+      case 3:
+        digitalWrite(pinoLedAmarelo, HIGH);
+        break;
+      default:
+        break;
+    }
+  }
+
+  estadoBotaoAnterior = estadoBotaoAtual; 
+}

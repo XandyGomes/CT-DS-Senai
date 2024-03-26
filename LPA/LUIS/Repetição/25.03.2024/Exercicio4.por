@@ -3,15 +3,22 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro minutosTotal, horaFinal, minutoFinal
+		inteiro x, n, potencia
 
-		escreva("Entre com a quantidade de minutos que deseja converter para horas: ")
-		leia(minutosTotal)
- 
-		minutoFinal = minutosTotal%60
-		horaFinal = (minutosTotal-minutoFinal) /60
-
-		escreva("O horário convertido é: ", horaFinal, "h:",minutoFinal,"m.")
+		escreva("Entre com uma base: ")
+		leia(x)
+		escreva("Entre com um expoente: ")
+		leia(n)
+		potencia = x
+		se(n == 0){
+			potencia = 1
+		}senao {
+			para(inteiro i=1; i<n; i++){
+				potencia = potencia*x		
+			}
+		}
+		escreva("A potencia de ", x, " por ", n, " é: ", potencia)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 338; 
+ * @POSICAO-CURSOR = 265; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

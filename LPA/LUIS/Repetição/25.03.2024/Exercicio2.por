@@ -3,23 +3,21 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro minutosTotal, horaFinal, minutoFinal
+		inteiro num
+		escreva("Entre com um número para calcularmos a tabuada: ")
+		leia(num)
 
-		escreva("Entre com a quantidade de minutos que deseja converter para horas: ")
-		leia(minutosTotal)
- 
-		minutoFinal = minutosTotal%60
-		horaFinal = (minutosTotal-minutoFinal) /60
-
-		escreva("O horário convertido é: ", horaFinal, "h:",minutoFinal,"m.")
+		para(inteiro i=1; i<=10; i++){
+			escreva(num, " x ", i, " = ", i*num, "\n")
+		}
 	}
-}
+}	
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 338; 
+ * @POSICAO-CURSOR = 217; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

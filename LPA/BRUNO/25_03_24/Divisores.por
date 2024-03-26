@@ -1,25 +1,30 @@
 programa
 {
-	
-	funcao inicio()
-	{
-	inteiro minutosTotal, horaFinal, minutoFinal
-
-		escreva("Entre com a quantidade de minutos que deseja converter para horas: ")
-		leia(minutosTotal)
- 
-		minutoFinal = minutosTotal%60
-		horaFinal = (minutosTotal-minutoFinal) /60
-
-		escreva("O horário convertido é: ", horaFinal, "h:",minutoFinal,"m.")
-	}
+    funcao inicio()
+    {
+        inteiro numero
+        
+        escreva("Digite um número: ")
+        leia(numero)
+        
+        escreva("Os divisores de ", numero, " sao: ")
+        
+        para(inteiro i = 1; i <= numero; i++)
+        {
+            se(numero % i == 0)
+            {
+                escreva(i, ", ")
+            }
+        }
+    }
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 338; 
+ * @POSICAO-CURSOR = 136; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
