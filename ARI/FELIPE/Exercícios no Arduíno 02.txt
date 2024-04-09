@@ -1,0 +1,21 @@
+========================================================================================
+Exercícios no Arduíno 02
+========================================================================================
+
+Exercício 4 - Acionar Leds com Potenciômetro
+
+https://www.tinkercad.com/things/5PyxXqBz923-exercicio-4-acionar-leds-com-potenciometro
+
+
+---------------------------------------------------------------------------------------
+
+Exercício 5 - RGB com 3 Potenciômetros
+
+https://www.tinkercad.com/things/3Tw3aQIXVgT-exercicio-5-rgb-com-3-potenciometros
+
+
+---------------------------------------------------------------------------------------
+
+Exercício 6 - Display e Botão
+
+https://www.tinkercad.com/things/6WwoXaMU9Hs-exercicio-6-display-e-botao

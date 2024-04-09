@@ -1,0 +1,15 @@
+========================
+Exercícios no Arduíno 03
+========================
+
+Exercício 07 - Vetor com uso de Leds
+
+https://www.tinkercad.com/things/cuHq08Z7soy-exercicio-7-vetor-com-uso-de-leds
+
+------------------------------------------------------------------------------
+
+Exercício 08 - Matriz com uso de Leds
+
+https://www.tinkercad.com/things/1NN396Y91Ne-exercicio-8-matriz-com-uso-de-leds
+
+-------------------------------------------------------------------------------
