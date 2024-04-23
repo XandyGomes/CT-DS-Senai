@@ -20,7 +20,7 @@ programa
           ou ((bola <= (pedro/2) ou bola < (joao + chico)))){
           escreva("\nEquipe desclassifica")
           }senao{
-          	escreva("\nEquipe classificada")
+          	escreva("\nEquipe classificada")    //12, 1, 4, 18
           }
 	}
 }
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 661; 
+ * @POSICAO-CURSOR = 679; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
