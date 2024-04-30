@@ -5,7 +5,7 @@ programa
 	{
 		real matriz[3][3], i, soma
 
-		i = 0
+		i = 1
 		soma = 0
 
 		para(inteiro l = 0; l < 3; l++) {
