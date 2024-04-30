@@ -15,8 +15,8 @@ programa {
 				leia(nome[i])
 				i++
 			} senao se (n1 == 2) { 
-				para(inteiro a = 0; a < i; a++) {
-					escreva("\nNome ", a+1, ": ", nome[a])
+				para(inteiro p = 0; p < i; p++) {
+					escreva("\nNome ", p+1, ": ", nome[p])
 				}
 			}
 		} enquanto(n1 != 3)
@@ -30,7 +30,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 472; 
+ * @POSICAO-CURSOR = 196; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
