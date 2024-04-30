@@ -22,7 +22,7 @@ programa
       }
       para (l = 0; l < 3; l++) {
         para (c = 0; c < 3; c++) { 
-            matriz[l][c] = matriz[l][c] * matriz[l][c]
+            matriz[l][c] = matriz[l][c] * matriz[l][c] * matriz[l][c]
             i++
         }
      }
