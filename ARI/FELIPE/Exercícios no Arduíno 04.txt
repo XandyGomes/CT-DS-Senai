@@ -1,0 +1,12 @@
+========================
+Exercícios no Arduíno 04
+========================
+
+Liga dos leds, 2 segundos e outro 1 segundo (duração)
+
+https://www.tinkercad.com/things/gvHx8gNJpEE-liga-dois-leds-2-e-1-segundo
+
+
+Semáforo piscante
+
+https://www.tinkercad.com/things/fx3qrQdxwRj-semaforo-piscante
