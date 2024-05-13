@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis</title>
+</head>
+<body>
+<script>
+
+/*  1= recebe numero 1.2 = recebe numeros reais "A" = StringCadeia  */
+/* var = variaveis*/
+
+var nome = 'Joao';                                                          //String              (Cadeia)
+var idade = 17;                                                             //Number ou Integer   (Inteiro)
+var peso = 81.6;                                                            //Float ou decimal    (Real)
+var masculino = true;                                                       //boolean             (logico)
+
+var nomes = ["Joao, Alexandre, Jose, Maria"];                               //Vetor
+var numeros = [1, 2, 3, 4];                                                 //Vetor
+
+var cadastro = {                                                            //objeto
+    nome: "JP",
+    idade: 17,
+    peso: 81.6,
+    feminino: false,
+}
+var teste1 = "1"
+var teste2 = "1"
+
+if(teste1 == teste2){ //       ==       Olha somente o valor
+    console.log("verdade")
+}else{
+    console.log("falso")
+}
+/*if(teste1 === teste2){ //     ===       Olha o valor e tipo
+    console.log("verdade")
+}else{                          = recebe valor
+    console.log("falso")
+}*/
+
+
+alert(nome + idade)                                                         //Alert serve para mostrar mensagem de alerta quando abre o reinicia uma pagina                                                                          
+console.log(nome)                                                           //Serve para ficar no console quando clica F12 no navegador
+console.log("peso: "+ cadastro.peso + "idade: "+ cadastro.idade)
+console.log(nomes[0], nomes[1], nomes[2])                                   //Serve para puxar o nome da posição do vetor no caso 'Joao'
+
+</script>
+</body>
+</html>
