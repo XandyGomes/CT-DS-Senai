@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<body>
+
+    <input type="button" value="Aperte para inserir valores" onclick="divisao()">
+
+    <br>
+    <br>
+    <h1>Quociente:</h1>
+    <h2 id="root1"></h2>
+    <h1>Resto:</h1>
+    <h2 id="root2"></h2>
+
+    <script>
+        function divisao() {
+            var divd = prompt("Digite o dividendo:");
+            var divs = prompt("Digite o divisor:");
+            var quoc, rest
+
+            quoc = parseInt(divd) / parseInt(divs)
+            rest = parseInt(divd) % parseInt(divs)
+
+            document.getElementById("root1").innerHTML = quoc
+            document.getElementById("root2").innerHTML = rest
+        }
+    </script>
+</body>
+</html>
