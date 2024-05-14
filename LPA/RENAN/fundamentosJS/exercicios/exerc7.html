@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7</title>
+</head>
+<body>
+
+    <h1>Atividade 7</h1>
+    <h1 id="root"></h1>
+
+    <script>
+        function formula(ax2, bx, c){
+
+            let delta = bx**2 - 4*ax2*c;
+
+            if(delta <= 0) {
+                document.getElementById('root').innerHTML = "Delta Negativo "
+                return
+
+            }
+
+            let x1 = (-bx + Math.sqrt(delta)) / (2 * ax2);
+            let x2 = (-bx - Math.sqrt(delta)) / (2 * ax2);
+            
+
+            document.getElementById('root').innerHTML = "Raíz 1: " + x1
+            document.getElementById('root').innerHTML += " Raíz 2: " + x2
+
+        }
+
+        formula(1, -10, 24)
+
+    </script>
+    
+</body>
+</html>

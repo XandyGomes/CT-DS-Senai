@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+</head>
+<body>
+
+    <h1>Atividade 4</h1>
+    <h1 id="root"></h1>
+
+    <script>
+        function calExp(){
+            let dividendo = parseInt(prompt("Digite o dividendo da conta: "))
+            let divisor = parseInt(prompt("Digite o divisor da conta: "))
+            
+            let resul = dividendo / divisor
+            let resto = dividendo % divisor
+            
+            document.getElementById('root').innerHTML = "Resultado da divisão: " + resul
+            document.getElementById('root').innerHTML += " | Resto: " + resto
+
+        }
+
+        calExp()
+
+    </script>
+    
+</body>
+</html>
