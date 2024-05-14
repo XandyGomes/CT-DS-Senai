@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6</title>
+</head>
+
+<body>
+    <h1>Juros simples:</h1>
+    <h2 id="root1"></h2>
+    <h1>Juros compostos:</h1>
+    <h2 id="root2"></h2>
+
+    <script>
+        var capIni = prompt("Digite o capital inicial:");
+        var taxJur = prompt("Digite a taxa de juros (%):");
+        var tempApli = prompt("Digite a quantidade de tempo (anos):");
+
+        function jurosSimples(capIni, taxJur, tempApli) {
+            var montanteApli
+            var juros 
+
+            juros = parseInt(capIni) * (parseInt(taxJur) / 100) * parseInt(tempApli);
+            
+            montanteApli = (parseInt(capIni) + parseInt(juros)).toFixed(2);
+
+            document.getElementById("root1").innerHTML = montanteApli
+        }
+
+        function jurosCompostos(capIni, taxJur, tempApli) {
+            var montante
+
+            montante = (capIni * Math.pow((1 + taxJur / 100), tempApli)).toFixed(2);
+
+            document.getElementById("root2").innerHTML = montante
+        }
+
+        jurosSimples(capIni, taxJur, tempApli);
+        jurosCompostos(capIni, taxJur, tempApli);
+    </script>
+</body>
+
+</html>

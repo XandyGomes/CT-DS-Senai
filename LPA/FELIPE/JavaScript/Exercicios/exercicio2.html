@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    
+    <input type="button" value="Verificar triângulo" onclick="calcTriangulo()">
+    
+    <h1 id="res"></h1>
+
+    <script>
+        function calcTriangulo() {
+            
+            var resultado
+            var valor1 = prompt("Digite o valor do 1° lado:");
+            var valor2 = prompt("Digite o valor do 2° lado:");
+            var valor3 = prompt("Digite o valor do 3° lado:");
+
+            if (valor1 == null || valor1 == "" || valor2 == null || valor2 == "" || valor3 == null || valor3 == "") {
+                resultado = "Valores indefinidos!"
+            } else if (valor1 == valor2 && valor2 == valor3 && valor1 == valor3) {
+                resultado = "O triângulo é equilátero!"
+            } else if (valor1 == valor2 || valor2 == valor3 || valor1 == valor3) {
+                resultado = "O triângulo é isóceles!"
+            } else {
+                resultado = "O triângulo é escaleno!"
+            }
+
+            document.getElementById("res").innerHTML = resultado
+
+        }
+    </script>
+</body>
+</html>

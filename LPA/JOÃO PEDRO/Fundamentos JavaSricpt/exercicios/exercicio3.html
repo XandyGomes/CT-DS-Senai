@@ -1,0 +1,31 @@
+<!--Crie uma função que recebe dois parâmetros, base e expoente, e retorne a base elevada ao expoente.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+
+    <input type="button" value="BaseExpoente" onclick="calcularBaseExpoente()">
+    <p id="resultado"></p>
+
+    <script>
+        function calcularBaseExpoente(){
+            var x;
+            var b = prompt("Digite o valor da Base: ");
+            var e = prompt("Digite o valor do Expoente: ");
+
+            x = parseInt(b) ** parseInt (e)
+
+            document.getElementById("resultado").innerHTML = x;
+
+
+        }
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    
+    <h1>Soma:</h1>
+    <h2 id="soma"></h2>
+    <h1>Subtração:</h1>
+    <h2 id="sub"></h2>
+    <h1>Multiplicação:</h1>
+    <h2 id="mult"></h2>
+    <h1>Divisão:</h1>
+    <h2 id="div"></h2>
+
+    <script>
+        function calculo(v1, v2) {
+
+            document.getElementById("soma").innerHTML = v1 + v2;
+            document.getElementById("sub").innerHTML = v1 - v2;
+            document.getElementById("mult").innerHTML = v1 * v2;
+            document.getElementById("div").innerHTML = v1 / v2;
+
+        }
+
+        calculo(24 , 12);
+    </script>
+</body>
+</html>

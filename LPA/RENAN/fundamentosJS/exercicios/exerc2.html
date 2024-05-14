@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+</head>
+<body>
+    <h1>Atividade 2</h1>
+    <h1 id="root"></h1>
+
+    <script>
+
+        function tri() {
+            let lado1 = parseInt(prompt("Digite o primeiro lado do triângulo: "))
+            let lado2 = parseInt(prompt("Digite o segundo lado do triângulo: "))
+            let lado3 = parseInt(prompt("Digite o terceiro lado do triângulo: "))
+
+            if(lado1 == lado2 && lado3 == lado2 && lado1 == lado3) {
+                document.getElementById('root').innerHTML = "O triângulo é Equilátero"
+
+            } else if(lado1 == lado2 || lado2 == lado3 || lado1 == lado3) {
+                document.getElementById('root').innerHTML = "O triângulo é Isóceles"
+
+            } else {
+                document.getElementById('root').innerHTML = "O triângulo é Escaleno"
+
+            }
+        }
+
+        tri()
+
+    </script>
+</body>
+</html>

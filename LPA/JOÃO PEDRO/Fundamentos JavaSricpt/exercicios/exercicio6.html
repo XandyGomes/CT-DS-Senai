@@ -1,0 +1,37 @@
+<!--Elabore duas funções que recebem três parâmetros: capital inicial, taxa de juros e tempo de aplicação. A 
+primeira função retornará o montante da aplicação financeira sob o regime de juros simples e a segunda 
+retornará o valor da aplicação sob o regime de juros compostos. -->
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Juros</title>
+</head>
+<body>
+    <button onclick="calcularJuros()">Calcular Juros</button>
+    <p id="resultado"></p>
+
+    <script>
+        function calcularJurosSimples(capital, taxa, tempo) {
+            return capital + (capital * taxa * tempo);
+        }
+
+        function calcularJurosCompostos(capital, taxa, tempo) {
+            return capital * Math.pow((1 + taxa), tempo);
+        }
+
+        function calcularJuros() {
+            const capital = parseFloat(prompt("Informe o capital inicial:"));
+            const taxa = parseFloat(prompt("Informe a taxa de juros (em decimal, ex: 0.05 para 5%):"));
+            const tempo = parseFloat(prompt("Informe o tempo de aplicação em anos:"));
+
+            const montanteSimples = calcularJurosSimples(capital, taxa, tempo);
+            const montanteComposto = calcularJurosCompostos(capital, taxa, tempo);
+
+            const resultado = `Montante com Juros Simples: R$ ${montanteSimples.toFixed(2)}<br>Montante com Juros Compostos: R$ ${montanteComposto.toFixed(2)}`;
+            document.getElementById("resultado").innerHTML = resultado;
+        }
+    </script>
+</body>
+</html>
