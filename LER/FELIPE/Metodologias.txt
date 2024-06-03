@@ -1,0 +1,40 @@
+==================
+Metodologias ágeis
+==================
+
+-> Formas de acelerar a entrega de um trabalho, fracionamento do de entregas(correção de erros mais rapido e planejamentos revistos)
+
+-> 4 valores
+1° Indivíduos e interações > processos e ferramentas
+2° Software funcionando > documentação abrangente
+3° Colaboração cliente > negociações de contrato
+4° Responder a mudanças > seguir um plano
+
+
+-> 12 princípios
+
+1° Satsfazer o cliente através de entrega contínua e adiantada do software
+2° Mudanças nos requisitos são bem vindas, pois processos ágeis tiram vantagens das mudanças visando vantagem competitiva para o cliente
+3° Entregar frequentemente o software funcionando, em poucas semanas ou meses (Preferência de ser em menor escala de tempo)
+4° Pessoas de negócio e desenvolvedores devem trabalhar diariamente, juntos, em colaboração ao projeto
+5° Construa projetos em torno de indivíduos motivados(Dê a eles o ambiente e suporte, confança para fazer o trabalho)
+6° Método eficaz e eficiente de passar informações -> face a face (networking)
+7° Software funcionando é a medida primária de progresso
+8° Os processos ágeis promovem desenvolvimento sustentável (Patrocinadores, desenvolvedores e usuários devem manter ritmo constante)
+9° Contínua atenção à excelência técnica e bom design -> aumento da agilidade
+10° Simplicidade - muitas vezes a solução de problemas complexos está na simplicidade
+11° As melhores arquiteturas, requisitos e design vem de equipes auto-organizáveis
+12° Invervalor regulares para a equipe refletir sobre como ser mais eficaz e refinar a forma de trabalho
+
+
+-> Principais metodologias
+
+° Scrum
+° Kanban
+° Lean
+° Feature Driven Development (FDD)
+° eXtreme Programming (XP)
+° Microsoft Solutions Framework(MSF)
+
+
+-> 
