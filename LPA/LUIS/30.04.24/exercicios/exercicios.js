@@ -151,14 +151,22 @@
     // exercicio11(2024)
 
     var exercicio12 = (num) =>{
-        fat = parseInt(num);
+        let fat = parseInt(num);
         for(let i=1; i<num; i++){
             fat = fat * i
         }
         console.log(fat);
     }
 
-    // exercicio12(5)
+    //  exercicio12(5)
+
+     function fatorialRec(n){
+        if(n == 0){
+            return 1
+        }else{
+            return n * fatorialRec(n-1)
+        }
+     }
 
     function exercicio13(dia){
         parseInt(dia);
@@ -245,4 +253,180 @@
                 console.log("Operação inválida!")
         }
     }
-    exercicio16(10,20,"+")
+    // exercicio16(10,20,"+")
+
+
+    function exercicio20(valor){
+        var qtdeNotas = 0
+        var resposta =''
+        if(valor >= 100){
+            while(valor > 100){
+                qtdeNotas++
+                valor -= 100
+            }
+            resposta += `${qtdeNotas} nota(s) de R$ 100,00.`
+            qtdeNotas = 0
+        }
+
+        if(valor >= 50){
+            while(valor >= 50){
+                qtdeNotas++
+                valor -= 50
+
+            }
+            resposta += ` ${qtdeNotas} nota(s) de R$ 50,00.`
+            qtdeNotas = 0   
+        }
+
+        if(valor >= 10){
+            while(valor >= 10){
+                qtdeNotas++
+                valor -= 10
+
+            }
+            resposta += ` ${qtdeNotas} nota(s) de R$ 10,00.`
+            qtdeNotas = 0   
+        }
+
+        if(valor >= 5){
+            while(valor >= 5){
+                qtdeNotas++
+                valor -= 5
+
+            }
+            resposta += ` ${qtdeNotas} nota(s) de R$ 5,00.`
+            qtdeNotas = 0   
+        }
+
+        if(valor >= 2){
+            while(valor >= 2){
+                qtdeNotas++
+                valor -= 2
+
+            }
+            resposta += ` ${qtdeNotas} nota(s) de R$ 2,00.`
+            qtdeNotas = 0   
+        }
+
+        if(valor >= 1){
+            while(valor >= 1){
+                qtdeNotas++
+                valor -= 1
+
+            }
+            resposta += ` ${qtdeNotas} nota(s) de R$ 1,00.`
+            qtdeNotas = 0   
+        }
+        return resposta
+    }
+
+    // console.log(exercicio20(163))
+
+    function exercicio202(valor){
+        var qtdeNotas = 0
+        var resposta =''
+
+        while(valor > 0){
+            if(valor >= 100){
+                qtdeNotas++
+                valor -= 100
+                resposta += `${qtdeNotas} nota(s) de R$ 100,00.`
+                qtdeNotas = 0
+            } else if(valor >= 50){
+                qtdeNotas++
+                valor -= 50
+                resposta += ` ${qtdeNotas} nota(s) de R$ 50,00.`
+                qtdeNotas = 0   
+            } else if(valor >= 10){
+                qtdeNotas++
+                valor -= 10
+                resposta += ` ${qtdeNotas} nota(s) de R$ 10,00.`
+                qtdeNotas = 0   
+            } else if(valor >= 5){
+                qtdeNotas++
+                valor -= 5
+                resposta += ` ${qtdeNotas} nota(s) de R$ 5,00.`
+                qtdeNotas = 0   
+            } else if(valor >= 2){
+                qtdeNotas++
+                valor -= 2
+                resposta += ` ${qtdeNotas} nota(s) de R$ 2,00.`
+                qtdeNotas = 0   
+            } else{
+                qtdeNotas++
+                valor -= 1
+                resposta += ` ${qtdeNotas} nota(s) de R$ 1,00.`
+                qtdeNotas = 0   
+            }
+        }
+        return resposta
+    }
+
+    // console.log(exercicio202(163))
+
+
+
+
+    function exercicio21(idade){
+        valor = 100
+        if(idade<10 && idade >0){
+            valor+=80
+        }else if(idade<30){
+            valor+=50
+        }else if(idade<60){
+            valor+=95
+        }else if(idade<100){
+            valor+=100
+        }else{
+            return "Idade inválida!"
+        }
+
+        return `O preço do plano de saúde será ${valor.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`
+    }
+
+    // console.log(exercicio21(30))
+
+
+    function exercicio22(mes, anuidade){
+        if(mes < 1 || mes > 12 || anuidade < 0){
+            return `dados passados incorretamente!`
+        }
+
+        return (anuidade * (0.05+1)**(mes-1)).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
+        
+        
+    }
+
+    // console.log(exercicio22(6, 100))
+
+    function media23(nota1, nota2, nota3){
+        var media
+        if(nota1 > nota2 && nota1 > nota3){
+            media = (4*nota1 + 3*nota2 + 3*nota3) / 10 
+        }else if(nota2 > nota1 && nota2 > nota3){
+            media = (4*nota2 + 3*nota1 + 3*nota3) / 10 
+        }else{
+            media = (4*nota3 + 3*nota2 + 3*nota1) / 10 
+        }
+        return media.toFixed(2)
+    }
+
+    function notaAleatoria(){
+        return Math.floor(Math.random() * (10 - 0 + 1)) + 0
+    }
+
+    function exercicio23(){
+        var cod = Math.floor(Math.random() * (10 - -1 + 1)) + -1//prompt("Digite o código do aluno: ")
+        while(cod>=0){
+            var nota1 = notaAleatoria()//prompt("Digite a nota 1 do aluno: ")
+            var nota2 = notaAleatoria()//prompt("Digite a nota 2 do aluno: ")
+            var nota3 = notaAleatoria()//prompt("Digite a nota 3 do aluno: ")
+            var media = media23(nota1, nota2, nota3)
+            var aprovacao = media>= 5 ? "APROVADO" : "REPROVADO"
+            console.log(`Codigo do aluno: ${cod}\nNota1: ${nota1}\nNota2: ${nota2}\nNota3: ${nota3}\nMédia: ${media}, ${aprovacao}\n`)
+            cod = Math.floor(Math.random() * (10 - -1 + 1)) + -1//prompt("Digite o código do aluno: ")
+        }
+        console.log("Programa finalizado!")
+    }
+
+    exercicio23()
