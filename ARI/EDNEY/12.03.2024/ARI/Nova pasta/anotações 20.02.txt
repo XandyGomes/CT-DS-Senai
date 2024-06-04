@@ -1,0 +1,14 @@
+	MODELOS PARA TRANSMISSÃO DE DADOS
+		Publish-Subscribe -> É um padrão de mensagem em que os remetentes de mensagens, chamados editores, não programam as mensagens oara serem enviadas diretamente a destinatários específicos , chamados assinantes mas, em vez disso categorizam as mensagens publicadas em classes sem conhecimento de quais assinantes  PUBLISH -> manda a mensagem
+							    SUBSCRIBE-> recebe
+		MQTT x HTTP 
+			GET --> http://www.youtube.com/AutoMarcio
+			200 --> <!doctype html> <html...</html>
+		  O MQTT é um protocolo de mensagens baseado em padrões, ou conjunto de regras, usado para comunicação de computador para computador.
+		  O HTTP (Hypertext Transfer Protocol) é um protocolo projetado para a transferência de conteúdo na Web. 
+
+@echo off
+mkdir
+c:\Users\senai-alexandre\Desktop\Dney
+mkdir
+c:\Users\senai-alexandre\Desktop\Teste
