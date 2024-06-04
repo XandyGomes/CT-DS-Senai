@@ -1,0 +1,61 @@
+Requisitos funcionais
+	-Vender coleções de moda sustentável  (ok) 
+	-Calcular frete e tempo de entrega (ok)
+	-filtrar por materiais, preço, tipo de vestimenta, data de lançamento, coleção, estação... (Acho que deveria colocar
+filtrar materias, aqui em funcionais e o restante colocar como Filtragem de preço, tipo, data em regras de negócio)
+	-Cadastrar/logar clientes (ok)
+	-Possuir avaliação do produto pelo cliente (Eu colocaria como Avaliar produtos, e em regras de negocio colocaria 
+possibilidade de avaliar todos os produtos que comprou)
+	-Possuir carrinho de compras (ok)
+	-Gerar relatório de vendas dos produtos (ok)
+	-Apresentar gráfico de vendas (ok)
+	-Apresentar fotos dos produtos (ok)
+	-Acompanhar a compra pelo site (ok) 
+	
+Requisitos não funcionais
+	-Site deve ser responsivo (ok)
+	-Site intuítivo de fácil usabilidade  (ok)
+	-Cálculo de frete com integração aos correios (ok)
+	-Site rápido, sem travamentos (ok)
+	-segurança das informações através do login (ok)
+	-Experiência agradável ao cliente(Cores)   (ok)
+	-Adaptação as sazonalidades (ok)
+
+Regras de negócio
+	-Apresentação dos materiais utilizados, as práticas de fabricação e o impacto ambiental (ok)
+	-Liberação de cupom de desconto para novos clientes (ok)
+	-Envio de e-mail para clientes que adicionaram produto no carrinho mas não concluiram a compra (ok)
+	-Sistema de pontos que são convertidos em desconto para usuários cadastrados, recebem pontos pelas compras(Fidelização do cliente) (ok)
+	-Venda apenas de produtos sustentáveis (ok)
+
+ACRESCENTAÇÃO 
+
+Requisitos funcionais
+	-Vender coleções de moda sustentável  (ok) (Para melhorar os impactos causados no meio ambiente)
+	-Calcular frete e tempo de entrega (ok) ( Fazer a conta de qual valor será o frete e qual a estimativa de entrega)
+	-filtrar por materiais, preço, tipo de vestimenta, data de lançamento, coleção, estação... (Acho que deveria colocar
+filtrar materias, aqui em funcionais e em regras de negocio colocaria como Filtragem de preço, tipo, data)
+	-Cadastrar/logar clientes (ok) ( Permitir fazer cadastro do cliente para realizar compras)
+	-Possuir avaliação do produto pelo cliente (Eu colocaria como Avaliar produtos, e em regras de negocio colocaria 
+possibilidade de avaliar todos os produtos que comprou)
+	-Possuir carrinho de compras (ok) (Permitir o cliente ver o que ele pois no carrinho)
+	-Gerar relatório de vendas dos produtos (ok) (Gerar pro cliente um relatorio do que ele comprou)
+	-Apresentar gráfico de vendas (ok) (Mostrar pra quem utiliza o site o relatorio de vendas em grafico)
+	-Apresentar fotos dos produtos (ok) (Mostrar pro cliente foto do que ele deseja)
+	-Acompanhar a compra pelo site (ok)  (Mostrar pro cliente o acompanhamento do que ele compra)
+	
+Requisitos não funcionais
+	-Site deve ser responsivo (ok) (Para permitir realizar todas as ações no site)
+	-Site intuítivo de fácil usabilidade  (ok) (Para ser atrativo para o cliente estar utilizando o site)
+	-Cálculo de frete com integração aos correios (ok) (Mostrar para o cliente o valor que ele pagará de frete)
+	-Site rápido, sem travamentos (ok) (Melhorar a fluidez do site)
+	-segurança das informações através do login (ok) (Segurança para manter os dados do cliente seguros)
+	-Experiência agradável ao cliente(Cores)   (ok) (melhorar a experiencia para ter mais acessos e mais compras no site)
+	-Adaptação as sazonalidades (ok) (Separar as roupas por temporada e eventos)
+
+Regras de negócio
+	-Apresentação dos materiais utilizados, as práticas de fabricação e o impacto ambiental (ok)(Mostrar pros clientes os detalhes sobre o que ele está comprando)
+	-Liberação de cupom de desconto para novos clientes (ok) (Disponibilizar descontos para atrair novos clientes)
+	-Envio de e-mail para clientes que adicionaram produto no carrinho mas não concluiram a compra (ok) (Chamar a atenção dos clientes que colocaram itens no carrinho mas não compraram)
+	-Sistema de pontos que são convertidos em desconto para usuários cadastrados, recebem pontos pelas compras(Fidelização do cliente) (ok) (Disponilizar pontos que podem ser trocados por descontos, para os clientes comprarem itens)
+	-Venda apenas de produtos sustentáveis (ok) (Para melhorar os impactos causados no meio ambiente)
