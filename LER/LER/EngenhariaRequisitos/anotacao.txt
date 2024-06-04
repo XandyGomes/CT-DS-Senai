@@ -1,0 +1,6 @@
+		ENGENHARiA DE REQUISITOS
+			A Engenharia de Requisitos (ER) é o ramo da engenharia de software que envolve as atividades relacionadas com a definição dos requisitos de software de sistema, desenvolvidas ao longo do ciclo de vida do software.
+			O processo de ER envolve interação entre pessoas e conecimento para transformar informações diversas(organização, leis,etc) em documentos e modelos que direcionem o desenvolvimento de software.
+			A ER possibilita estimar custo e tempo de maneiras precisas, gerenciar mudanças em requisitos, entre outros.
+			Entre os problemas da ER estão: requisitos inconsistentes, produto final com custo maior que o esperado, software instável e altos custos de manutenção e clientes insatisfeitos.
+			Alguns benefícios de um processo de ER de qualidade pode trazer são:

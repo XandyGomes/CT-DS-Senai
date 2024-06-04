@@ -1,0 +1,28 @@
+REQUISITOS
+
+Funcionais 
+•	Adicionar ao carrinho		#as compras
+•	Escolher tamanho da roupa
+•	Verificar disponibilidade	#do produto
+•	Confirmar compra
+•	Criar conta
+•	Logar 				#na conta
+•	Deslogar
+•	Rastrear produto 
+
+Não funcionais
+•	Segurança: proteger as informações pessoais do cliente por meio de criptografia 
+•	Usabilidade: fazer com que o site seja intuitivo
+•	Acessibilidade: incluir ferramentas simples para facilitar uso do site por pessoas deficientes		#qual tipo de deficiencia?
+•	Velocidade: fazer com que o site seja rápido sem lags
+•	Carrinho					#mostrar quantos produtos existem no carrinho atráves de ícone
+•	Recomendações com base em compras passadas
+
+Regras de negócio 
+•	Descrição de materiais e impacto ambiental do produto 
+•	Transparência com o cliente 
+•	Venda de produtos ambientalmente responsáveis
+•	Pagamento somente com cartão de credito ou débito 
+•	Cupom de desconto
+
+• Os requisitos foram bem separados e apresentados para facilitar o entendiimento do analsita; porém há algumas observações, que foram feitas utilizando a hashtag(#) e à frente dela o que poderia ser acrescentado para de alguma forma refinar/melhorar o levantamento de requisitos. O requisito não funcional "carrinho" funciona juntamente com o requisito funcional "adicionar ao carrinho" que tem a preferência em segundo plano, com relação ao outro. No geral o levantamento de todos os requisitos e as regras de negócio, após algumas observações, conclui-se que foi bem elaborada a resolução do exercício.
