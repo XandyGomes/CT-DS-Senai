@@ -1,0 +1,11 @@
+Elabore um programa onde teremos um MENU com 3 opções:
+1-Inserir
+2-Listar
+3-Sair
+-Toda vez que escolhermos a opção "1-inserir", o programa pedirá para digitar um nome,
+deveremos inserir o nome, assim que inserir o nome ele volta para o menu, para escolher
+umas das 3 opções novamente.
+-Toda vez que escolhermos a opção "2-listar", o programa deverá mostrar a lista de nomes
+inseridos até o momento.
+-O programa só sairá no momento que escolhermos a opção "3-sair"
+OBS:você pode escolher o tamanho que quiser do veto que irá armazenar esses nomes.
