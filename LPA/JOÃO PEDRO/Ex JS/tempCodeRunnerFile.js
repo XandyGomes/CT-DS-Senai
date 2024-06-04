@@ -1,2 +1,2 @@
 
-console.log(calcula(2))
+        case 12:

@@ -3,7 +3,7 @@
 //também um default, que retornará uma mensagem de erro no console. 
 function string(fruta){
     switch(fruta){
-        case "Maça":
+        case "Maçã":
             return `Não vendemos esta fruta aqui`;
             break;
         case "Kiwi":
@@ -16,7 +16,7 @@ function string(fruta){
             return `Opção inválida`;
     }
 }
-console.log(string("Maça"));
+console.log(string("Maçã"));
 console.log(string("Kiwi"));
 console.log(string("melancia"));
 console.log(string(""));
