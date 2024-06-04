@@ -1,0 +1,9 @@
+mkdir - para criar pasta (Exemplo mkdir teste)
+cd -mover para pasta (Exemplo cd desktop)
+move - mover
+copy - copiar
+dir - ver propriedades
+cd/ - voltar para o inicio
+echo - criar documentos (Exemplo echo>teste.txt)
+cls - limpar tela
+rmdir - excluir pasta

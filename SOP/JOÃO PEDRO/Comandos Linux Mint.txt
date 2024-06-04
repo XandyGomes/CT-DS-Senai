@@ -1,0 +1,16 @@
+Comandos Linux
+
+pwd = Verificar onde estou
+ls = mostrar os arquivos locais / onde estou
+l= Mostra arquivos e diretorios, se for uma pasta fica com / na frente se não fica sem
+cd "Nome da pasta" = Entra no diretorio
+cd = Sai do diretorio
+ls -R = Mostra todos os diretorios e sub-diretorios
+cat > (nome arquivo).(formato) = cria arquivos 
+ls -h = Mostra formato do arquivo, quando foi criado, extensão
+mkdir = serve para criar diretorio
+rm = excluir arquivos dentro de um diretório
+clear = limpa tela
+sudo = super usuario
+df -h = informações do sistema
+ifconfig = Serve para ver IP
