@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Tarefa</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Editar Tarefa</h1>
+    <form action="/tarefas/edit/<%= tarefa._id %>" method="POST" style="display: inline;">
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" name="descricao" value="<%= tarefa.descricao %>" required><br>
+
+        <!-- Opção de completar removida -->
+
+        <button type="submit" class="save-button">Salvar Alterações</button>
+    </form>
+    <form action="/tarefas" method="GET" style="display: inline;">
+        <button type="submit" class="back-button">Voltar para a lista de tarefas</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 120px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px; /* Espaçamento entre o título e o contêiner de tarefas */
+    color: #333;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 25px 120px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    max-width: 1200px; /* Aumenta a largura máxima da div */
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Adiciona espaço acima das tarefas */
+}
+
+.task-container.completed {
+    background-color: #d4edda; /* Verde claro para tarefas concluídas */
+}
+
+.task-title {
+    display: flex;
+    align-items: center;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.task-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.task-buttons button.edit {
+    color: #ffc107; /* Amarelo para editar */
+}
+
+.task-buttons button.delete {
+    color: #dc3545; /* Vermelho para excluir */
+}
+
+.task-buttons button:hover {
+    opacity: 0.8;
+}
+
+.return-button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.return-button:hover {
+    background-color: #0056b3;
+}
+
+.edit-container.active {
+    display: block;
+}
+
+.save-edit, .cancel-edit {
+    margin-right: 5px;
+}
+
+.edit-container {
+    display: none;
+    margin-top: 10px;
+}
+
+.edit-container.active {
+    display: inline-flex;
+    align-items: center;
+}
+
+.task-title {
+    flex: 1;
+}
+
+.task-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.task-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.task-buttons button.edit {
+    color: orange;
+}
+
+.task-buttons button.delete {
+    color: red;
+}
+
+.task-date {
+    margin: 0px 100px; /* Adiciona espaço acima da data da tarefa */
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adicionar Nova Tarefa</title>
+    <link rel="stylesheet" href="/tasks.css">
+</head>
+<body>
+    <h1>Adicionar Nova Tarefa</h1>
+    <form action="/tasks/cadastro" method="POST">
+        <label for="title">Tarefa</label>
+        <input type="text" name="title" id="title" required /><br />
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <!-- Botão para redirecionar para a página de gerenciamento -->
+    <form action="/tasks/manage" method="GET" style="margin-top: 20px;">
+        <button type="submit">Gerenciar Tarefas</button>
+    </form>
+</body>
+</html>
