@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Tarefa</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Adicionar Nova Tarefa</h1>
+    <form action="/tarefas/add" method="POST">
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" name="descricao" required><br>
+        <button type="submit" class="add-button">Adicionar</button>
+    </form>
+    <form action="/tarefas" method="GET">
+        <button type="submit" class="back-button">Voltar para a lista de tarefas</button>
+    </form>
+</body>
+</html>

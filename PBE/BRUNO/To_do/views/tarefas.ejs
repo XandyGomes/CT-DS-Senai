@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Completa</th>
+                <th>Data de Criação</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% tarefas.forEach(tarefa => { %>
+                <tr>
+                    <td><%= tarefa.descricao %></td>
+                    <td><%= tarefa.completa ? 'Sim' : 'Não' %></td>
+                    <td><%= new Date(tarefa.dataCriacao).toLocaleDateString() %></td>
+                    <td>
+                        <form action="/tarefas/edit/<%= tarefa._id %>" method="GET" style="display:inline;">
+                            <button type="submit" class="edit-button">Editar</button>
+                        </form>
+                        <form action="/tarefas/delete/<%= tarefa._id %>" method="POST" style="display:inline;">
+                            <button type="submit" class="delete-button">Deletar</button>
+                        </form>
+                        <% if (!tarefa.completa) { %>
+                            <form action="/tarefas/complete/<%= tarefa._id %>" method="POST" style="display:inline;">
+                                <button type="submit" class="complete-button">Completar</button>
+                            </form>
+                        <% } %>
+                    </td>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+
+    <form action="/tarefas/add" method="GET" style="margin-top: 20px;">
+        <button type="submit" class="add-button">Adicionar Nova Tarefa</button>
+    </form>
+</body>
+</html>
