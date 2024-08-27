@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <a href="/tasks/new" class="button">Adicionar Nova Tarefa</a>
+    <ul>
+        <% tasks.forEach(task => { %>
+            <li class="<%= task.completed ? 'completed' : '' %>">
+                <span class="task-info">
+                    <h3><%= task.title %></h3>
+                    <p><%= task.description %></p>
+                    <p>Data de Conclusão: 
+                        <%= 
+                            (() => {
+                                const date = new Date(task.dueDate);
+                                date.setHours(date.getHours() + date.getTimezoneOffset() / 60);
+                                return date.toLocaleDateString('pt-BR');
+                            })() 
+                        %>
+                    </p>
+
+                </span>
+                <span class="task-actions">
+                    <form action="/tasks/<%= task._id %>?_method=PUT" method="POST">
+                        <label class="flag">
+                            <input type="checkbox" name="completed" <%= task.completed ? 'checked' : '' %> onchange="this.form.submit()">
+                            Completa
+                        </label>
+                    </form>
+                    <a href="/tasks/<%= task._id %>/edit" class="button edit-button">Editar</a>
+                    <form action="/tasks/<%= task._id %>?_method=DELETE" method="POST" style="display: inline;">
+                        <button type="submit" class="button delete-button">Excluir</button>
+                    </form>
+                </span>
+            </li>
+        <% }) %>
+    </ul>
+</body>
+</html>

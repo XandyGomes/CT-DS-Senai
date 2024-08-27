@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nova Tarefa</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Criar Nova Tarefa</h1>
+    <form action="/tasks" method="POST">
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title" required>
+        
+        <label for="description">Descrição:</label>
+        <textarea id="description" name="description"></textarea>
+
+        <label for="dueDate">Data de Conclusão:</label>
+        <input type="date" id="dueDate" name="dueDate" required>
+
+        <button type="submit">Salvar Tarefa</button>
+    </form>
+    <a href="/tasks" class="button back-button">Voltar</a>
+</body>
+</html>

@@ -1,0 +1,201 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Lista de Tarefas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed .task-info {
+    background-color: #f8d7da;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+li.completed .task-info h3, 
+li.completed .task-info p {
+    text-decoration: none;
+    color: #a94442;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.task-info {
+    flex: 1;
+}
+
+h3 {
+    margin: 0;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.task-actions {
+    display: flex;
+    align-items: center;
+}
+
+/* Botões Gerais */
+button,
+a.button {
+    background-color: #3498db; /* Azul padrão para botões */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/* Botão Editar */
+a.button.edit-button {
+    background-color: #2ecc71; /* Verde para Editar */
+}
+
+/* Botão Excluir */
+button.delete-button,
+a.button.delete-button {
+    background-color: #e74c3c; /* Vermelho para Excluir */
+}
+
+/* Hover para botões */
+button:hover,
+a.button:hover {
+    opacity: 0.9;
+}
+
+/* Checkbox de Completa */
+label.flag {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+label.flag input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Nova Tarefa e Editar Tarefa */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Botão Salvar Tarefa */
+button {
+    background-color: #2ecc71; /* Verde para Salvar */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+/* Botão de Voltar */
+a.button {
+    display: inline-block;
+    background-color: #3498db; /* Azul padrão para botões */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a.button:hover {
+    background-color: #2980b9;
+}
+
+/* Botão de Voltar Neutro */
+a.back-button {
+    background-color: #95a5a6; /* Cinza para Voltar */
+    margin-top: 20px;
+}
+
+a.back-button:hover {
+    background-color: #7f8c8d;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
