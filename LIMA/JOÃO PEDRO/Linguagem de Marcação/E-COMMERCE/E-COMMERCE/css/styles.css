@@ -1,0 +1,150 @@
+.sacola{
+    background: url(../img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes ul{
+    font-size: 15px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a{
+    color: #003366;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+body{
+    color: #333333;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+.logotipo{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+header {
+    position: relative;
+}
+
+.busca, 
+.menu-departamentos {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.busca input{
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.menu-departamentos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+}
+
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-departamentos {
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item-menu {
+    text-decoration: none;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.novidades {
+    float: left;
+    background-color: #f5dcdc;
+}
+
+.mais-vendidos{
+    float: right;
+    background-color: #dcdcf5;
+}
+
+.painel li{
+    display: inline-block;
+    width: 140px;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+.painel h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.painel a{
+    color: #333;
+    font-size: 9px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+
+.painel img {
+    display: block;
+    gap: 10px;
+    height: 200px;
+    font-size: 10px;
+}
+
+.painel figure {
+    margin: 0;
+    width: auto;
+}

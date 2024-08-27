@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.sacola{
+    background: url(../img/sacolas-de-compras.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 40px;
+    text-align: right;
+    width: 140px;
+    color: white;
+    position: absolute;
+    top: 7px;
+    right: 19px;
+}
+
+.menu-opcoes ul{
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.menu-opcoes li {
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.menu-opcoes li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.menu-opcoes li a:hover{
+    text-decoration: underline;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100vw;
+
+}
+
+.logotipo{
+    width: 140px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+header{
+    position: relative;
+    background-color: #8B8F74;
+}
+
+.busca, 
+.menu-departamentos
+{
+    float: left;
+    text-transform:  uppercase;
+    margin-right: 10px;
+    width: 230px;
+    padding-bottom: 5px;
+}
+
+.menu-departamentos{
+    clear: left;
+    margin-left: 100px;
+}
+
+.item-menu{
+    text-decoration: none;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+    color: #7b7f66;
+}
+
+.busca input {
+    vertical-align: middle;
+}
+
+.busca input[type="text"]{
+    width: 170px;
+}
+
+.menu-departamentos ul{
+    font-size: 15px;
+    list-style-type: none;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.menu-departamentos li{
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a{
+    text-decoration: none;
+    color: #79817c;
+}
+
+.menu-departamentos a:hover{
+    text-decoration: underline;
+}
+
+.container-destaque img{
+    margin-left: 60px;
+    width: 65vw;
+}
+
+.painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 580px;
+}
+
+.novidades{
+    float: left;
+    background-color: #79817c;
+    margin-left: 300px;
+}
+
+.mais-vendidos{
+    float: right;
+    background-color: #5d6a62;
+    margin-right: 300px;
+}
+
+.painel li {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    width: 350px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.painel a{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.painel img {
+    display: flex;
+    height: 200px;
+}
+
+painel ol{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 15px;
+}
