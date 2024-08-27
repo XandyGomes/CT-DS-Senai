@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Titulo;
+    src: url(../fontes/Titulos.ttf);
+}
+
+
+.Fundo_titulo{
+    width: 100vw;
+    height: 10vh;
+    background-color: #2f4156;
+    color: #ffffff;
+    font-family: Titulo;
+}
+
+.titulo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2f4156;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+}
+
+li {
+    margin: 0 15px;
+}
+
+li a {
+    text-align: center;
+    font-family: Titulo;
+    display: block;
+    color: #ffffff;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4a6787;
+}
+
+.active {
+    background-color: #4a6787;
+}

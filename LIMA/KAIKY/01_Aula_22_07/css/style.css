@@ -1,0 +1,33 @@
+body{
+    background-image:url(https://thumbs.dreamstime.com/b/fundo-branco-da-textura-da-tela-59935479.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    background-color: yellow;
+    height: 140px;
+    width: 300px;
+    color: rgb(13, 77, 77);
+    text-align: center;
+    padding: auto;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: serif;
+    border: 2px rgb(255, 0, 0) solid;
+}
+
+ul{
+    line-height: 15px;
+    letter-spacing: 5px;
+    word-spacing: 45px;
+    text-indent: 30px;
+}
+
+figure{
+    text-align: center;
+}
