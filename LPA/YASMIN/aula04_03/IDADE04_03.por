@@ -29,7 +29,7 @@ programa
         se (sexo == 'F'  ou  sexo == 'f' e idade >= 30) {
         	 escreva (nome, " seu salario sera de ",salario += 200)
         }
-	  se (sexo == 'F' ou sexo == 'm' e idade < 30){
+	  se (sexo == 'F' ou sexo == 'f' e idade < 30){
         	escreva (nome, "seu salario sera de ",salario += 80)
  	  }
 
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 875; 
+ * @POSICAO-CURSOR = 797; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

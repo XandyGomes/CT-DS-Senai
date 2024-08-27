@@ -1,0 +1,17 @@
+	FUNCIONAIS
+  		Confirmar reservas	      --> Confirma após o cadastro e pagamento da reserva, a reserva do cliente/hóspede. E enviar uma mensagem ao cliente avisando o mesmo
+  		Cadastrar Reservas	      --> Realiza o cadastro de reserva do quarto do cliente/hóspede. Em alguma data especifica.
+ 		Verificar disponibilidade     --> Verificar se há e quais são os quartos disponíveis nos hotéis  
+		Gerenciar serviços adicionais --> Gerencia serviços (quarto, gerais,restaurante, etc)
+
+	NÃO FUNCIONAIS
+		Desempenho		--> O site deverá ter o melhor desempenho possível, ser um sistema rápido, com tempo médio de resposta.
+		Segurança		--> A segurança do site deve ser boa para todos, e proteger os dados.
+		Usabilidade		--> ser "fácil" de usar, ter uma interface bonita e compativel para todas as pessoas(pcd, daltônicos, etc...)
+		Confiabilidade		--> A confiança que o site poderá passar para usuários(segurança...)
+
+	REGRAS DE NEGÓCIO
+		Política de check-in e Check-out	--> checar a chegada e saída do hóspede de determinado quarto
+		Cancelamento com Antecedência		--> Cancela, com um determinado prazo de antecedência a reserva do cliente/hóspede
+		Pagamento antecipado			--> Realizar o pagamento(total ou porcentagem) antecipado para poder reservar quartos  
+		Classificação por categoria		--> Classifica os quartos pela categoria pedida/procurada

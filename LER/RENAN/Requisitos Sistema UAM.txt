@@ -1,0 +1,61 @@
+RF01 - Mapear a área. - MÉDIA 
+
+-Nosso sistema irá mapear a área e registrar no banco as áreas de plantio da Usina, através do controle de um funcionário. 
+
+RF02 – Analisar a área. - MÁXIMA 
+
+-O drone irá analisar uma das áreas já mapeada e irá coletar as informações sobre a cana dessa localidade, como pragas, cana seca, áreas que acabaram de ser colhidas e demais informações referentes ao estado da cana, a análise pode ser feita em áreas não mapeadas, porém terá de ser manual. Além de definir as ações para combater o problema. 
+
+RF03 – Gerar relatório da análise. - MÁXIMA 
+
+-As informações coletadas na análise serão registradas em um relatório que será disponibilizado aos encarregados. 
+
+ 
+
+RF04 – Aplicar insumos. - MÁXIMA 
+
+-Para as áreas que estão com alguma deficiência, o drone realizará a aplicação dos insumos corretos para cada situação. 
+
+RF05 – Monitorar ações do drone. - MÁXIMA 
+
+-Durante cada ação do drone, como mapeamento, analise e aplicação de insumos, um operador terá acesso ao monitoramento desse drone em tempo real. 
+
+RF06 – Emitir alerta de falta de insumos. - MÍNIMA 
+
+	- Será enviado um alerta ao operador quando o insumo que está sendo aplicado estiver próximo ao fim. 
+
+RF07 – Evitar colisões com sistema que utilize sensores - MÁXIMA 
+
+	- Através de um sistema de sensores  drone realizará manobras que evitarão a colisão, sem a operação manual de um operador. 
+
+ 
+
+ 
+
+RNF01 - Integração com o sistema do drone. - Prioridade 
+
+-Nosso sistema deve funcionar em conjunto com o sistema do drone já existente. 
+
+RNF02 – Disponibilidade para acesso mobile. 
+
+-Nosso sistema irá enviar informações para o aplicativo mobile, para acesso ao monitoramento. 
+
+RNF03 - Integração com uma API de GeoLocalização. - Prioridade 
+
+-Integração para que o drone possa realizar as movimentações sem que seja necessário alguém para controlar o drone 
+
+RNF04 – Segurança das informações mapeadas - Prioridade 
+
+- Os dados mapeados devem ser armazenados de forma segura. 
+
+RNF05 – Acessibilidade para deficientes visuais. 
+
+- Leitor automático das informações do aplicativo. 
+
+ 
+
+RN01 – a análise pode ser feita em áreas não mapeadas, porém terá de ser manual. 
+
+RN02 – Drone aceitar apenas insumos de empresas cerificadas 
+
+RN03 – Drone poderá voar apenas em condições climáticas boas 

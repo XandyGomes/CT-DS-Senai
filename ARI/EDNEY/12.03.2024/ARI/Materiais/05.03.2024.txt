@@ -1,0 +1,9 @@
+Os meios de transmissao nao guiados transportam ondas eletromagneticas sem o uso de um condutor fisico. Esse tipo de comunicação é muitas vezes, conhecido como sem fio.
+
+A PRINCIPAL DIFERENÇA ENTRE OS PADRÕES:
+
+IEE 802.11ac a velocidade máxima em um canal de 3500 Mbps 2.4/5GHz
+
+IEE 802.11ax ou Wi-Fi 6 a velocidade máxima em vários canais de 9600 Mbps 2.4/5/6GHz 
+
+As duas possuem a tecnologia mesh Wi-Fi Network

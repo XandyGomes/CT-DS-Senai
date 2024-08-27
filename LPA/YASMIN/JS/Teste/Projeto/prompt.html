@@ -1,0 +1,26 @@
+function operacoesBasicas(valor1, valor2) {
+    // Soma
+    var soma = valor1 + valor2;
+    console.log("Soma:", soma);
+
+    // Subtração
+    var subtracao = valor1 - valor2;
+    console.log("Subtração:", subtracao);
+
+    // Multiplicação
+    var multiplicacao = valor1 * valor2;
+    console.log("Multiplicação:", multiplicacao);
+
+    // Divisão
+    // Verifica se o segundo valor é zero para evitar divisão por zero
+    if (valor2 !== 0) {
+        var divisao = valor1 / valor2;
+        console.log("Divisão:", divisao);
+    } else {
+        console.log("Divisão por zero não é possível.");
+    }
+}
+
+// Exemplo de uso da função
+operacoesBasicas(10, 5);
+

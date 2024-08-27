@@ -1,0 +1,37 @@
+GERENCIAMENTO DE TAREFAS PARA ESTUDANTES UNIVERSITÁRIOS 
+- ajudar os alunos a organizarem suas atividades academcicas, como prazos de entretga de trabalhos, datas de  provas e compromissos extracurriculares. o app deve ser fácil de usar e acessivel em dispositivos moveis -
+	REQUISITOS
+		Funcionais
+			Inserir atividades
+			Enviar sugestões ou reclamações
+			Agendar atividades propostas pelos professores
+			Gerenciar atividades
+			Criar usuário e senha
+			Logar
+			Professores -> realizar modificações das atividades e provas (adiar data, cancelar...)
+		Não Funcionais
+			Desempenho
+			Checklist das atividades
+			Lembretes vencimento das atividades
+			Lista de compromissos (provas e extracurriculares)
+			Verificação de RA e CPF (e só criar usuário se ele estiver matriculado)
+			Segurança
+			  Deslogar o usuário automaticamente após 30 minutos de inatividade
+			Acessível/acessibilidade
+			Interativo
+			Mobile
+			Segurança
+			Responsividade 
+			Login
+		Regras de Negócio
+			Somente alunos e professores da universidade terão acesso ao app/site
+			Acesso gratuito por 3 meses
+			Após o período gratuito, realizar pagamento até o quinto dia útil do mês
+				
+
+
+
+
+
+
+
