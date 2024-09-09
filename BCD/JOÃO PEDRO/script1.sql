@@ -229,3 +229,47 @@ VALUES (
     '2024-09-01'
 );
 
+
+INSERT INTO vendas (
+    funcionarios_id,
+    mesa_id,
+    venda_codigo,
+    venda_valor,
+    venda_total,
+    venda_desconto,
+    venda_situacao,  -- Adicionei a coluna venda_situacao
+    data_criacao,
+    data_atualizacao
+)
+VALUES (
+    2,
+    2,
+    '0001',
+    21,  -- Removi as aspas do valor numérico
+    21,  -- Removi as aspas do valor numérico
+    0,   -- Removi as aspas do valor numérico
+    'A', -- Valor para venda_situacao
+    '2024-09-09',  -- Formato de data corrigido
+    '2024-09-09'   -- Formato de data corrigido
+);
+
+
+INSERT INTO itens_vendas (produto_id,
+						   vendas_id,
+						   item_valor,
+						   item_quantidade,
+						   item_total,
+						   data_criacao,
+						   data_atualizacao)
+					VALUES(1,
+						   2,
+						   7,
+						   3,
+						   21,
+						   '2024-09-09',
+						   '2024-09-09' 
+					);
+
+	
+
+
