@@ -271,5 +271,11 @@ INSERT INTO itens_vendas (produto_id,
 					);
 
 	
+UPDATE produtos SET produto_valor = 4 WHERE ID = 2;
+
+UPDATE produtos SET data_criacao = '2024-09-10';
+
+DELETE FROM mesas WHERE ID = 2;
+
 
 
