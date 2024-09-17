@@ -271,5 +271,37 @@ INSERT INTO itens_vendas (produto_id,
 					);
 
 	
+UPDATE produtos SET produto_valor = 4 WHERE ID = 2;
+
+UPDATE produtos SET data_criacao = '2024-09-10';
+
+DELETE FROM mesas WHERE ID = 2;
+
+CREATE OR REPLACE FUNCTION 
+	retorna_nome_funcionario(func_id INT)
+	RETURNS TEXT AS
+$$
+DECLARE
+	nome TEXT;
+	situacao TEXT;
+BEGIN
+	-- Armazenando o nome e a situação separadamente
+	SELECT funcionario_nome, funcionario_situacao
+	INTO nome, situacao
+	FROM funcionarios
+	WHERE id = func_id;
+
+	-- Verificando a situação do funcionário
+	IF situacao = 'A' THEN
+		RETURN nome || ' - Usuário Ativo';
+	ELSE
+		RETURN nome || ' - Usuário Inativo';
+	END IF;
+END
+$$
+LANGUAGE plpgsql;
+
+select retorna_nome_funcionario (1);
+
 
 
