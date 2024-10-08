@@ -304,4 +304,50 @@ LANGUAGE plpgsql;
 select retorna_nome_funcionario (1);
 
 
+CREATE OR REPLACE FUNCTION 
+	retorna_nome_funcionario(func_id INT)
+	RETURNS TEXT AS
+$$
+DECLARE
+	nome TEXT;
+	situacao TEXT;
+BEGIN
+	-- Armazenando o nome e a situação separadamente
+	SELECT funcionario_nome, funcionario_situacao
+	INTO nome, situacao
+	FROM funcionarios
+	WHERE id = func_id;
+
+	-- Verificando a situação do funcionário
+	IF situacao = 'A' THEN
+		RETURN nome || ' - Usuário Ativo';
+	ELSE
+		RETURN nome || ' - Usuário Inativo';
+	END IF;
+END
+$$
+LANGUAGE plpgsql;
+
+select retorna_nome_funcionario (1);
+
+
+	CREATE OR REPLACE FUNCTION 
+		retorna_valor_comissao(func_id INT)
+		RETURNS REAL AS
+	$$
+	DECLARE
+		comissao REAL;
+	BEGIN
+
+		SELECT funcionario_comissao
+		INTO comissao
+		FROM funcionarios
+		WHERE id = func_id;
+	
+		RETURN comissao;
+	END
+	$$
+	LANGUAGE plpgsql;
+
+select retorna_valor_comissao(1);
 
