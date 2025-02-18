@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Tarefas</title>
+    <link rel="stylesheet" href="/manage.css"> <!-- Link para o arquivo CSS separado -->
+    <script>
+        function toggleEdit(taskId) {
+            const editContainer = document.getElementById(`edit-container-${taskId}`);
+            editContainer.classList.toggle('active');
+        }
+
+        function getFormattedDate() {
+            const date = new Date();
+            return date.toLocaleDateString('pt-BR');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciar Tarefas</h1>
+        <div>
+            <% tasks.forEach(function(task) { %>
+                <div class="task-container <%= task.completed ? 'completed' : '' %>">
+                    <div class="task-title">
+                        <span><%= task.title %></span>
+                    </div>
+                    <div class="task-buttons">
+                        <span class="task-date">
+                            <%= task.createdAt ? new Date(task.createdAt).toLocaleDateString('pt-BR') : new Date().toLocaleDateString('pt-BR') %>
+                        </span>
+                        <button type="button" onclick="toggleEdit('<%= task._id %>')" class="edit">
+                            &#9998; <!-- Ícone de lápis -->
+                        </button>
+                        <form action="/tasks/delete/<%= task._id %>" method="POST" style="display:inline;">
+                            <button type="submit" class="delete">
+                                &#128465; <!-- Ícone de lixeira -->
+                            </button>
+                        </form>
+                    </div>
+                    <div id="edit-container-<%= task._id %>" class="edit-container">
+                        <form action="/tasks/edit/<%= task._id %>" method="POST">
+                            <input type="text" name="title" value="<%= task.title %>" required>
+                            <button type="submit" class="save-edit">Salvar</button>
+                            <button type="button" onclick="toggleEdit('<%= task._id %>')" class="cancel-edit">Cancelar</button>
+                        </form>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+        <form action="/tasks" method="GET">
+            <button type="submit" class="return-button">Voltar para Adicionar Tarefas</button>
+        </form>
+    </div>
+</body>
+</html>

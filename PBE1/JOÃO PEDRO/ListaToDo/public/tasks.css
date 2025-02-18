@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Alinhar o conteúdo ao centro */
+  }
+
+  /* Estilo para o título principal */
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+
+  /* Estilo para o formulário */
+  form {
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilo para os rótulos dos campos */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  /* Estilo para os campos de entrada de texto */
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* Estilo para o botão */
+  button {
+    width: 100%; /* Alterado para garantir que o botão ocupe toda a largura do contêiner */
+    max-width: 400px; /* Largura máxima */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Exibir como bloco para centralizar corretamente */
+    margin: 20px auto 0 auto; /* Centralizar horizontalmente e espaçar do formulário */
+  }
+  .btn-view {
+    width: 100%; /* Alterado para garantir que o botão ocupe toda a largura do contêiner */
+    max-width: 400px; /* Largura máxima */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Exibir como bloco para centralizar corretamente */
+    margin: 20px auto 0 auto; /* Centralizar horizontalmente e espaçar do formulário */
+  }
+  
+  /* Estilo para o botão ao passar o mouse */
+  button:hover, .btn-view:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-view:hover {
+    background-color: #0056b3;
+  }
+
