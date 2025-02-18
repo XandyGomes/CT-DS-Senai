@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import React from "react";
+import { Container } from "../styles";
+import { Text } from "react-native";
 
-export default class Main extends Component {
-  render() {
-    return (
-      <View>
-        <Text>Essa Página Main</Text>
-      </View>
-    );
-  }
+export default function Main() {
+  return (
+    <Container>
+      <Text>GitHub Viewer</Text>
+    </Container>
+  );
 }

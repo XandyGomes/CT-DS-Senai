@@ -25,9 +25,10 @@ export default function Routes() {
         }}
       />
       <Stack.Screen
-        name="Página Inicial"
+        name="Main"
         component={Main}
         options={{
+          headerLeft: null,
           title: "'GitHub VIEWER",
           headerTitleAlign: "center",
           headerStyle: {
