@@ -9,10 +9,10 @@
 		<version>3.2.8</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.xandy</groupId>
-	<artifactId>financaspessoais</artifactId>
+	<groupId>com.gomes</groupId>
+	<artifactId>senai</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>financaspessoais</name>
+	<name>senai</name>
 	<description>Projeto de Gerenciamento de Finanças Pessoais</description>
 	<url />
 	<licenses>
@@ -94,4 +94,3 @@
 	</build>
 
 </project>
-

@@ -1,13 +1,13 @@
-package com.xandy.financaspessoais;
+package com.gomes.senai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FinancaspessoaisApplication {
+public class SenaiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FinancaspessoaisApplication.class, args);
+		SpringApplication.run(SenaiApplication.class, args);
 	}
 
 }
