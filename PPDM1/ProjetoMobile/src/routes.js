@@ -29,7 +29,7 @@ export default function Routes() {
         component={Main}
         options={{
           headerLeft: null,
-          title: "'GitHub VIEWER",
+          title: "GitHub VIEWER",
           headerTitleAlign: "center",
           headerStyle: {
             backgroundColor: "#3498db",
