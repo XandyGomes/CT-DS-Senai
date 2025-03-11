@@ -54,6 +54,7 @@ export default class Main extends Component {
         bio: response.data.bio,
         avatar: response.data.avatar_url,
       };
+      console.log(data);
 
       this.setState({
         users: [...users, data],
@@ -67,14 +68,49 @@ export default class Main extends Component {
     }
   };
 
-  render(){
+  render() {
     const { users, newUser, loading } = this.state;
-    return(
+    return (
       <Container>
         <Form>
-          
+          <Input
+            autoCorrect={false}
+            autoCapitalize="none"
+            placeholder="Adicionar usuário"
+            value={newUser}
+            onChangeText={(text) => this.setState({ newUser: text })}
+            returnKeyType="send"
+            onSubmitEditing={this.handleAddUser}
+          />
+          <SubmitButton loading={loading} onPress={this.handleAddUser}>
+            {loading ? (
+              <ActivityIndicator color="#fff" />
+            ) : (
+              <Icon name="add" size={20} color="#fff" />
+            )}
+          </SubmitButton>
         </Form>
+        <List
+          showsVerticalScrollIndicator={false}
+          data={users}
+          keyExtractor={(user) => user.login}
+          renderItem={({ item }) => (
+            <User>
+              <Avatar source={{ uri: item.avatar }} />
+              <Name>{item.name}</Name>
+              <Bio>{item.bio}</Bio>
+              <ProfileButton
+                onPress={() => {
+                  this.props.navigation.navigate("user", { user: item });
+                }}
+              >
+                <ProfileButtonText>Ver perfil</ProfileButtonText>
+              </ProfileButton>
+              
+            </User>
+          )}
+        />
       </Container>
-    )
+    );
   }
 }
