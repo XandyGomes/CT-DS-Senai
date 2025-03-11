@@ -3,6 +3,9 @@ package com.gomes.senai.model.entity;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+import com.gomes.senai.model.enums.StatusLancamento;
+import com.gomes.senai.model.enums.TipoLancamento;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -13,9 +16,13 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import lombok.Builder;
+import lombok.Data;
 
 @Entity
 @Table(name="lancamento", schema="financas")
+@Data
+@Builder
 public class Lancamento {
 	
 	@Id
@@ -49,4 +56,5 @@ public class Lancamento {
 	@Column(name = "status")
 	@Enumerated(value = EnumType.STRING)
 	private StatusLancamento status;
+	
 }

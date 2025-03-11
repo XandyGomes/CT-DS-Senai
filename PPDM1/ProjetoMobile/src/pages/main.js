@@ -71,7 +71,9 @@ export default class Main extends Component {
     const { users, newUser, loading } = this.state;
     return(
       <Container>
-
+        <Form>
+          
+        </Form>
       </Container>
     )
   }
