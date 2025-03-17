@@ -16,7 +16,6 @@ import {
   ProfileButton,
   ProfileButtonText,
 } from "../styles";
-
 export default class Main extends Component {
   state = {
     newUser: "",
@@ -31,7 +30,7 @@ export default class Main extends Component {
     }
   }
 
-  componentDidUpate(_, prevState) {
+  componentDidUpdate(_, prevState) {
     const { users } = this.state;
     if (prevState.users !== users) {
       AsyncStorage.setItem("users", JSON.stringify(users));
@@ -106,7 +105,14 @@ export default class Main extends Component {
               >
                 <ProfileButtonText>Ver perfil</ProfileButtonText>
               </ProfileButton>
-              
+              <ProfileButton
+                onPress={() => {
+                  this.setState({users: users.filter(user => user.login !== item.login)})
+                }}
+                style={{backgroundColor: "#FFC0CB"}}
+              >
+                <ProfileButtonText>Remover</ProfileButtonText>
+              </ProfileButton>
             </User>
           )}
         />

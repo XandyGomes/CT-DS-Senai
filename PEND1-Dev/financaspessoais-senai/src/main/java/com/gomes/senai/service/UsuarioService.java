@@ -1,4 +1,4 @@
-package com.gomes.senai.model.service;
+package com.gomes.senai.service;
 
 import com.gomes.senai.model.entity.Usuario;
 

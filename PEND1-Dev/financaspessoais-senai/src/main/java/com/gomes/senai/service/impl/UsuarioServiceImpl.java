@@ -1,11 +1,16 @@
-package com.gomes.senai.model.service.impl;
+package com.gomes.senai.service.impl;
+
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import com.gomes.senai.exception.ErroAutenticacao;
+import com.gomes.senai.exception.RegraNegocioException;
 import com.gomes.senai.model.entity.Usuario;
 import com.gomes.senai.model.repository.UsuarioRepository;
-import com.gomes.senai.model.service.UsuarioService;
+import com.gomes.senai.service.UsuarioService;
 
 @Service
 public class UsuarioServiceImpl implements UsuarioService {
@@ -20,17 +25,32 @@ public class UsuarioServiceImpl implements UsuarioService {
 
 	@Override
 	public Usuario autenticar(String email, String senha) {
-		return null;
+		Optional<Usuario> usuario = repository.findByEmail(email);
+		
+		if(!usuario.isPresent()) {
+			throw new ErroAutenticacao("Usuário não encontrado para o e-mail informado.");
+		}
+		
+		if(!usuario.get().getSenha().equals(senha)) {
+			throw new ErroAutenticacao("Senha inválida.");
+		}
+		
+		return usuario.get();
 	}
 
 	@Override
+	@Transactional
 	public Usuario salvarUsuario(Usuario usuario) {
-		return null;
+		validarEmail(usuario.getEmail());
+		return repository.save(usuario);
 	}
 
 	@Override
 	public void validarEmail(String email) {
-		repository.
+		boolean existe = repository.existsByemail(email);
+		if(existe) {
+			throw new RegraNegocioException("Já existe um usúario cadastrado com este e-mail.");
+		}
 	}
 
 }
