@@ -30,7 +30,7 @@ public class UsuarioRepositoryTest {
 		repository.save(usuario);
 						
 		//ação/execução
-		boolean result = repository.existsByemail("alexandre@senai.com.br");
+		boolean result = repository.existsByEmail("alexandre@senai.com.br");
 		
 		//verificação
 		Assertions.assertThat(result).isTrue();

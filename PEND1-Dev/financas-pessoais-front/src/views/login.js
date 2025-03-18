@@ -4,7 +4,7 @@ import FormGroup from "../components/form-group";
 import { withRouter } from "react-router-dom";
 
 import UsuarioService from "../app/service/usuarioService";
-import LocalStorageService from "../app/service/localstorageService.mjs";
+import LocalStorageService from "../app/service/localstorageService.js";
 import { mensagemErro } from "../components/toastr";
 class Login extends React.Component {
   state = {
