@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import api from "../services/api";
-import { View, Text } from 'react-native';
+import { Container, Header, Avatarperfil } from '..styles/';
 
 export default class User extends Component {
   render() {
     return (
-      <View>
-        <Text>Essa Página Usuários</Text>
-      </View>
     );
   }
 }

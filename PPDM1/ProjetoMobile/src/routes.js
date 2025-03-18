@@ -16,6 +16,7 @@ export default function Routes() {
         name="Login"
         component={Login}
         options={{
+          headerLeft: null,
           title: "LOGIN",
           headerTitleAlign: "center",
           headerStyle: {
