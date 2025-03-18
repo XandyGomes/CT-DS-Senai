@@ -4,6 +4,9 @@ import Main from "./pages/main";
 import Login from "./pages/login";
 import User from "./pages/user";
 
+import { Ionicons } from "@expo/vector-icons";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+
 const Stack = createStackNavigator();
 
 export default function Routes() {
@@ -27,7 +30,7 @@ export default function Routes() {
       <Stack.Screen
         name="Main"
         component={Main}
-        options={{
+        options={({ navigation }) => ({
           headerLeft: null,
           title: "GitHub VIEWER",
           headerTitleAlign: "center",
@@ -38,7 +41,23 @@ export default function Routes() {
           headerTitleStyle: {
             fontWeight: "bold",
           },
-        }}
+          headerRight: () => (
+            <Ionicons
+              name="log-out-outline"
+              size={24}
+              color="#fff"
+              style={{ marginRight: 15 }}
+              onPress={async () => {
+                try {
+                  await AsyncStorage.removeItem("userToken");
+                  navigation.replace("Login");
+                } catch (error) {
+                  console.error("Erro ao realizar o logout:", error);
+                }
+              }}
+            />
+          ),
+        })}
       />
       <Stack.Screen
         name="User"
