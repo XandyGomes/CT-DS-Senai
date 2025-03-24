@@ -12,7 +12,7 @@ import com.gomes.senai.model.entity.Usuario;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-//@ActiveProfiles("test")
+@ActiveProfiles("test")
 public class UsuarioRepositoryTest {
 
 	@Autowired
@@ -21,12 +21,7 @@ public class UsuarioRepositoryTest {
 	@Test
 	public void deveVerificarAExistenciaDeUmEmail(){
 		//cenário
-		Usuario usuario = Usuario
-						.builder()
-						.nome("Alexandre")
-						.email("alexandre@senai.com.br")
-						.senha("123456")
-						.build();
+		Usuario usuario = criarUsuario();
 		repository.save(usuario);
 						
 		//ação/execução
@@ -34,9 +29,26 @@ public class UsuarioRepositoryTest {
 		
 		//verificação
 		Assertions.assertThat(result).isTrue();
-		
 	}
 	
+	@Test
+	public void deveRetornarFalsoQuandoNaoHouverUsuarioCadastradoComOEmail() {
+		//cenario
+		repository.deleteAll();
+		
+		//ação
+		boolean result = repository.existsByEmail("alexandre@senai.com.br");
+		
+		//verificação
+		Assertions.assertThat(result).isFalse();
+	}
 	
-	
+	public static Usuario criarUsuario() {
+		return Usuario
+				.builder()
+				.nome("Alexandre")
+				.email("alexandre@senai.com.br")
+				.senha("123456")
+				.build();
+	}
 }

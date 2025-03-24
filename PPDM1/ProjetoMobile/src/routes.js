@@ -3,6 +3,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Main from "./pages/main";
 import Login from "./pages/login";
 import User from "./pages/user";
+import Cadastro from "./pages/cadastro";
 
 import { Ionicons } from "@expo/vector-icons";
 import AsyncStorage from "@react-native-async-storage/async-storage";
@@ -63,6 +64,21 @@ export default function Routes() {
       <Stack.Screen
         name="User"
         component={User}
+        options={{
+          title: "Perfil do Usuário",
+          headerTitleAlign: "center",
+          headerStyle: {
+            backgroundColor: "#3498db",
+          },
+          headerTintColor: "#fff",
+          headerTitleStyle: {
+            fontWeight: "bold",
+          },
+        }}
+      />
+      <Stack.Screen
+        name="Cadastro"
+        component={Cadastro}
         options={{
           title: "Cadastro de Usuários",
           headerTitleAlign: "center",

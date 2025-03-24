@@ -39,6 +39,21 @@ export default class User extends Component {
           <NamePerfil>{user.name}</NamePerfil>
           <BioPerfil>{user.bio}</BioPerfil>
         </Header>
+
+        <Stars
+          data={stars}
+          keyExtractor={(star) => String(star.id)}
+          renderItem={({ item }) => (
+            <Starred>
+              <OwnerAvatar source={{ uri: item.owner.avatar_url }} />
+              <Info>
+                <Title>{item.name}</Title>
+                <Author>{item.owner.login}</Author>
+              </Info>
+            </Starred>
+          )}
+        />
+
       </Container>
     )
   }
