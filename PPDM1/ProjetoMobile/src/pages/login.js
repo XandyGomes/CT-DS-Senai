@@ -5,23 +5,27 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
-  Alert,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
   const navigation = useNavigation();
 
   const handleLogin = async () => {
-    const emailStorage = await AsyncStorage.getItem("email");
-    const passwordStorage = await AsyncStorage.getItem("password");
-
-    if (email === emailStorage && password === passwordStorage ) {
+    const user = await AsyncStorage.getItem("user");
+    if (!user) {
+      alert("Nenhum usuário cadastrado!");
+      return;
+    }
+    const userJson = JSON.parse(user);
+    if (userJson.email === email && userJson.password === password) {
       navigation.navigate("Main");
     } else {
-      Alert.alert("Erro", "E-mail ou senha incorretos");
+      alert("E-mail ou senha inválidos!");
     }
   };
 
@@ -76,6 +80,7 @@ const styles = StyleSheet.create({
     padding: 10,
     width: "80%",
     alignItems: "center",
+    marginVertical: 5,
   },
   buttonText: {
     color: "#fff",
