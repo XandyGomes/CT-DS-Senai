@@ -4,7 +4,7 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
-    "axios": "^1.7.9",
+    "axios": "^1.8.4",
     "bootswatch": "^4.3.1",
     "classnames": "^2.2.6",
     "currency-formatter": "^1.5.5",
