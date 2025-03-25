@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.gomes.senai.api.dto.UsuarioDTO;
+import com.gomes.senai.exception.ErroAutenticacao;
 import com.gomes.senai.exception.RegraNegocioException;
 import com.gomes.senai.model.entity.Usuario;
 import com.gomes.senai.service.UsuarioService;
@@ -37,5 +38,15 @@ public class UsuarioResource {
 			}catch(RegraNegocioException e){
 				return ResponseEntity.badRequest().body(e.getMessage());
 			}
+	}
+	
+	@PostMapping("/autenticar")
+	public ResponseEntity autenticar(@RequestBody UsuarioDTO dto) {
+		try {
+			Usuario usuarioAutenticado = service.autenticar(dto.getEmail(), dto.getSenha());
+			return ResponseEntity.ok(usuarioAutenticado);
+		}catch(ErroAutenticacao e) {
+			return ResponseEntity.badRequest().body(e.getMessage());
+		}
 	}
 }
