@@ -11,17 +11,17 @@ import com.gomes.senai.api.dto.UsuarioDTO;
 import com.gomes.senai.exception.ErroAutenticacao;
 import com.gomes.senai.exception.RegraNegocioException;
 import com.gomes.senai.model.entity.Usuario;
+import com.gomes.senai.service.LancamentoService;
 import com.gomes.senai.service.UsuarioService;
+
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/usuarios")
+@RequiredArgsConstructor
 public class UsuarioResource {
 
-	private UsuarioService service;
-
-	public UsuarioResource(UsuarioService service) {
-		this.service = service;
-	}
+	private final UsuarioService service;
 	
 	@PostMapping
 	public ResponseEntity salvar(@RequestBody UsuarioDTO dto) {
