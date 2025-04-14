@@ -16,3 +16,4 @@ class UsuarioService extends ApiService {
 }
 
 export default UsuarioService;
+
