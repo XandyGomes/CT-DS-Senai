@@ -6,6 +6,10 @@ import FormGroup from "../../components/formGroup";
 import SelectMenu from "../../components/selectMenu";
 import LancamentosTable from "./lancamentosTable";
 
+import LocalStorageService from "../../app/service/localStorageService";
+import LancamentoService from "../../app/service/lancamentoService";
+import * as messages from "../../components/toastr";
+
 class ConsultaLancamentos extends React.Component {
   state = {
     ano: "",
@@ -14,8 +18,31 @@ class ConsultaLancamentos extends React.Component {
     lancamentos: [],
   };
 
+  constructor(){
+    super();
+    this.service = new LancamentoService();
+  }
+
   buscar = () => {
-    console.log(this.state);
+    const usuarioLogado = LocalStorageService.obterItem("_usuario_logado");
+
+    const lancamentoFiltro = {
+      ano: this.state.ano,
+      mes: this.state.mes,
+      tipo: this.state.tipo,
+      usuario: usuarioLogado.id,
+    };
+
+    this.service.consultar(lancamentoFiltro).then(response => {
+      const lista = response.data;
+
+      if(lista.length < 1){
+        messages.mensagemAlerta("Nenhum resultado encontrado.");
+      }
+      this.setState({ lancamentos: lista });
+    }).catch(error => {
+      messages.mensagemErro("Erro ao buscar lançamentos. Tente mais tarde.");
+    });
   };
 
   render() {
@@ -87,7 +114,7 @@ class ConsultaLancamentos extends React.Component {
                   Buscar
                 </button>
                 <button
-                  onClick={this.buscar}
+                  onClick={() => this.props.history.push("/cadastro-lancamentos")}
                   type="button"
                   className="btn btn-danger"
                 >
