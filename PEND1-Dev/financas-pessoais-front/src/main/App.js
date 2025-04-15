@@ -6,6 +6,7 @@ import "bootswatch/dist/flatly/bootstrap.css";
 import '../custom.css';
 import "toastr/build/toastr.min.js";
 import "toastr/build/toastr.css";
+import "primeicons/primeicons.css";
 
 class App extends React.Component {
   render() {
